@@ -1,0 +1,863 @@
+
+# Output color codes for the multiple input color names
+
+Do wanna enter color names or see all colors. (?custom/all):   all
+white, rgb=> [255, 255, 255] , hsl=> [0, 100, 100.0] , hex=>  #ffffff
+black, rgb=> [0, 0, 0] , hsl=> [0, 100, 0.0] , hex=>  #000000
+red, rgb=> [255, 0, 0] , hsl=> [0.0, 100, 50.0] , hex=>  #ff0000
+orange, rgb=> [255, 128, 0] , hsl=> [30.1176, 100, 50.0] , hex=>  #ff8000
+yellow, rgb=> [255, 255, 0] , hsl=> [60.0, 100, 50.0] , hex=>  #ffff00
+green, rgb=> [0, 255, 0] , hsl=> [120.0, 100, 50.0] , hex=>  #00ff00
+blue, rgb=> [0, 0, 255] , hsl=> [240.0, 100, 50.0] , hex=>  #0000ff
+purple, rgb=> [128, 0, 128] , hsl=> [300.0, 100, 25.1] , hex=>  #800080
+medium gray, rgb=> [128, 128, 128] , hsl=> [0, 0, 50] , hex=>  #808080
+extreme dark gray, rgb=> [26, 26, 26] , hsl=> [0, 0, 10] , hex=>  #1a1a1a
+very dark gray, rgb=> [64, 64, 64] , hsl=> [0, 0, 25] , hex=>  #404040
+dark gray, rgb=> [96, 96, 96] , hsl=> [0, 0, 37.5] , hex=>  #606060
+medium gray, rgb=> [128, 128, 128] , hsl=> [0, 0, 50] , hex=>  #808080
+light gray, rgb=> [159, 159, 159] , hsl=> [0, 0, 62.5] , hex=>  #9f9f9f
+very light gray, rgb=> [191, 191, 191] , hsl=> [0, 0, 75] , hex=>  #bfbfbf
+extreme light gray, rgb=> [230, 230, 230] , hsl=> [0, 0, 90] , hex=>  #e6e6e6
+extreme dark grayish red, rgb=> [26, 26, 26] , hsl=> [0.0, 0, 10] , hex=>  #1a1a1a
+extreme dark grayish orange, rgb=> [26, 26, 26] , hsl=> [30.1176, 0, 10] , hex=>  #1a1a1a
+extreme dark grayish yellow, rgb=> [26, 26, 26] , hsl=> [60.0, 0, 10] , hex=>  #1a1a1a
+extreme dark grayish green, rgb=> [26, 26, 26] , hsl=> [120.0, 0, 10] , hex=>  #1a1a1a
+extreme dark grayish blue, rgb=> [26, 26, 26] , hsl=> [240.0, 0, 10] , hex=>  #1a1a1a
+extreme dark grayish purple, rgb=> [26, 26, 26] , hsl=> [300.0, 0, 10] , hex=>  #1a1a1a
+extreme dark bit red, rgb=> [32, 19, 19] , hsl=> [0.0, 25, 10] , hex=>  #201313
+extreme dark bit orange, rgb=> [32, 26, 19] , hsl=> [30.1176, 25, 10] , hex=>  #201a13
+extreme dark bit yellow, rgb=> [32, 32, 19] , hsl=> [60.0, 25, 10] , hex=>  #202013
+extreme dark bit green, rgb=> [19, 32, 19] , hsl=> [120.0, 25, 10] , hex=>  #132013
+extreme dark bit blue, rgb=> [19, 19, 32] , hsl=> [240.0, 25, 10] , hex=>  #131320
+extreme dark bit purple, rgb=> [32, 19, 32] , hsl=> [300.0, 25, 10] , hex=>  #201320
+extreme dark moderate red, rgb=> [38, 13, 13] , hsl=> [0.0, 50, 10] , hex=>  #260d0d
+extreme dark moderate orange, rgb=> [38, 26, 13] , hsl=> [30.1176, 50, 10] , hex=>  #261a0d
+extreme dark moderate yellow, rgb=> [38, 38, 13] , hsl=> [60.0, 50, 10] , hex=>  #26260d
+extreme dark moderate green, rgb=> [13, 38, 13] , hsl=> [120.0, 50, 10] , hex=>  #0d260d
+extreme dark moderate blue, rgb=> [13, 13, 38] , hsl=> [240.0, 50, 10] , hex=>  #0d0d26
+extreme dark moderate purple, rgb=> [38, 13, 38] , hsl=> [300.0, 50, 10] , hex=>  #260d26
+extreme dark strong red, rgb=> [45, 6, 6] , hsl=> [0.0, 75, 10] , hex=>  #2d0606
+extreme dark strong orange, rgb=> [45, 26, 6] , hsl=> [30.1176, 75, 10] , hex=>  #2d1a06
+extreme dark strong yellow, rgb=> [45, 45, 6] , hsl=> [60.0, 75, 10] , hex=>  #2d2d06
+extreme dark strong green, rgb=> [6, 45, 6] , hsl=> [120.0, 75, 10] , hex=>  #062d06
+extreme dark strong blue, rgb=> [6, 6, 45] , hsl=> [240.0, 75, 10] , hex=>  #06062d
+extreme dark strong purple, rgb=> [45, 6, 45] , hsl=> [300.0, 75, 10] , hex=>  #2d062d
+extreme dark vivid red, rgb=> [51, 0, 0] , hsl=> [0.0, 100, 10] , hex=>  #330000
+extreme dark vivid orange, rgb=> [51, 26, 0] , hsl=> [30.1176, 100, 10] , hex=>  #331a00
+extreme dark vivid yellow, rgb=> [51, 51, 0] , hsl=> [60.0, 100, 10] , hex=>  #333300
+extreme dark vivid green, rgb=> [0, 51, 0] , hsl=> [120.0, 100, 10] , hex=>  #003300
+extreme dark vivid blue, rgb=> [0, 0, 51] , hsl=> [240.0, 100, 10] , hex=>  #000033
+extreme dark vivid purple, rgb=> [51, 0, 51] , hsl=> [300.0, 100, 10] , hex=>  #330033
+very dark grayish red, rgb=> [64, 64, 64] , hsl=> [0.0, 0, 25] , hex=>  #404040
+very dark grayish orange, rgb=> [64, 64, 64] , hsl=> [30.1176, 0, 25] , hex=>  #404040
+very dark grayish yellow, rgb=> [64, 64, 64] , hsl=> [60.0, 0, 25] , hex=>  #404040
+very dark grayish green, rgb=> [64, 64, 64] , hsl=> [120.0, 0, 25] , hex=>  #404040
+very dark grayish blue, rgb=> [64, 64, 64] , hsl=> [240.0, 0, 25] , hex=>  #404040
+very dark grayish purple, rgb=> [64, 64, 64] , hsl=> [300.0, 0, 25] , hex=>  #404040
+very dark bit red, rgb=> [80, 48, 48] , hsl=> [0.0, 25, 25] , hex=>  #503030
+very dark bit orange, rgb=> [80, 64, 48] , hsl=> [30.1176, 25, 25] , hex=>  #504030
+very dark bit yellow, rgb=> [80, 80, 48] , hsl=> [60.0, 25, 25] , hex=>  #505030
+very dark bit green, rgb=> [48, 80, 48] , hsl=> [120.0, 25, 25] , hex=>  #305030
+very dark bit blue, rgb=> [48, 48, 80] , hsl=> [240.0, 25, 25] , hex=>  #303050
+very dark bit purple, rgb=> [80, 48, 80] , hsl=> [300.0, 25, 25] , hex=>  #503050
+very dark moderate red, rgb=> [96, 32, 32] , hsl=> [0.0, 50, 25] , hex=>  #602020
+very dark moderate orange, rgb=> [96, 64, 32] , hsl=> [30.1176, 50, 25] , hex=>  #604020
+very dark moderate yellow, rgb=> [96, 96, 32] , hsl=> [60.0, 50, 25] , hex=>  #606020
+very dark moderate green, rgb=> [32, 96, 32] , hsl=> [120.0, 50, 25] , hex=>  #206020
+very dark moderate blue, rgb=> [32, 32, 96] , hsl=> [240.0, 50, 25] , hex=>  #202060
+very dark moderate purple, rgb=> [96, 32, 96] , hsl=> [300.0, 50, 25] , hex=>  #602060
+very dark strong red, rgb=> [112, 16, 16] , hsl=> [0.0, 75, 25] , hex=>  #701010
+very dark strong orange, rgb=> [112, 64, 16] , hsl=> [30.1176, 75, 25] , hex=>  #704010
+very dark strong yellow, rgb=> [112, 112, 16] , hsl=> [60.0, 75, 25] , hex=>  #707010
+very dark strong green, rgb=> [16, 112, 16] , hsl=> [120.0, 75, 25] , hex=>  #107010
+very dark strong blue, rgb=> [16, 16, 112] , hsl=> [240.0, 75, 25] , hex=>  #101070
+very dark strong purple, rgb=> [112, 16, 112] , hsl=> [300.0, 75, 25] , hex=>  #701070
+very dark vivid red, rgb=> [128, 0, 0] , hsl=> [0.0, 100, 25] , hex=>  #800000
+very dark vivid orange, rgb=> [128, 64, 0] , hsl=> [30.1176, 100, 25] , hex=>  #804000
+very dark vivid yellow, rgb=> [128, 128, 0] , hsl=> [60.0, 100, 25] , hex=>  #808000
+very dark vivid green, rgb=> [0, 128, 0] , hsl=> [120.0, 100, 25] , hex=>  #008000
+very dark vivid blue, rgb=> [0, 0, 128] , hsl=> [240.0, 100, 25] , hex=>  #000080
+very dark vivid purple, rgb=> [128, 0, 128] , hsl=> [300.0, 100, 25] , hex=>  #800080
+dark grayish red, rgb=> [96, 96, 96] , hsl=> [0.0, 0, 37.5] , hex=>  #606060
+dark grayish orange, rgb=> [96, 96, 96] , hsl=> [30.1176, 0, 37.5] , hex=>  #606060
+dark grayish yellow, rgb=> [96, 96, 96] , hsl=> [60.0, 0, 37.5] , hex=>  #606060
+dark grayish green, rgb=> [96, 96, 96] , hsl=> [120.0, 0, 37.5] , hex=>  #606060
+dark grayish blue, rgb=> [96, 96, 96] , hsl=> [240.0, 0, 37.5] , hex=>  #606060
+dark grayish purple, rgb=> [96, 96, 96] , hsl=> [300.0, 0, 37.5] , hex=>  #606060
+dark bit red, rgb=> [120, 72, 72] , hsl=> [0.0, 25, 37.5] , hex=>  #784848
+dark bit orange, rgb=> [120, 96, 72] , hsl=> [30.1176, 25, 37.5] , hex=>  #786048
+dark bit yellow, rgb=> [120, 120, 72] , hsl=> [60.0, 25, 37.5] , hex=>  #787848
+dark bit green, rgb=> [72, 120, 72] , hsl=> [120.0, 25, 37.5] , hex=>  #487848
+dark bit blue, rgb=> [72, 72, 120] , hsl=> [240.0, 25, 37.5] , hex=>  #484878
+dark bit purple, rgb=> [120, 72, 120] , hsl=> [300.0, 25, 37.5] , hex=>  #784878
+dark moderate red, rgb=> [143, 48, 48] , hsl=> [0.0, 50, 37.5] , hex=>  #8f3030
+dark moderate orange, rgb=> [143, 96, 48] , hsl=> [30.1176, 50, 37.5] , hex=>  #8f6030
+dark moderate yellow, rgb=> [143, 143, 48] , hsl=> [60.0, 50, 37.5] , hex=>  #8f8f30
+dark moderate green, rgb=> [48, 143, 48] , hsl=> [120.0, 50, 37.5] , hex=>  #308f30
+dark moderate blue, rgb=> [48, 48, 143] , hsl=> [240.0, 50, 37.5] , hex=>  #30308f
+dark moderate purple, rgb=> [143, 48, 143] , hsl=> [300.0, 50, 37.5] , hex=>  #8f308f
+dark strong red, rgb=> [167, 24, 24] , hsl=> [0.0, 75, 37.5] , hex=>  #a71818
+dark strong orange, rgb=> [167, 96, 24] , hsl=> [30.1176, 75, 37.5] , hex=>  #a76018
+dark strong yellow, rgb=> [167, 167, 24] , hsl=> [60.0, 75, 37.5] , hex=>  #a7a718
+dark strong green, rgb=> [24, 167, 24] , hsl=> [120.0, 75, 37.5] , hex=>  #18a718
+dark strong blue, rgb=> [24, 24, 167] , hsl=> [240.0, 75, 37.5] , hex=>  #1818a7
+dark strong purple, rgb=> [167, 24, 167] , hsl=> [300.0, 75, 37.5] , hex=>  #a718a7
+dark vivid red, rgb=> [191, 0, 0] , hsl=> [0.0, 100, 37.5] , hex=>  #bf0000
+dark vivid orange, rgb=> [191, 96, 0] , hsl=> [30.1176, 100, 37.5] , hex=>  #bf6000
+dark vivid yellow, rgb=> [191, 191, 0] , hsl=> [60.0, 100, 37.5] , hex=>  #bfbf00
+dark vivid green, rgb=> [0, 191, 0] , hsl=> [120.0, 100, 37.5] , hex=>  #00bf00
+dark vivid blue, rgb=> [0, 0, 191] , hsl=> [240.0, 100, 37.5] , hex=>  #0000bf
+dark vivid purple, rgb=> [191, 0, 191] , hsl=> [300.0, 100, 37.5] , hex=>  #bf00bf
+medium grayish red, rgb=> [128, 128, 128] , hsl=> [0.0, 0, 50] , hex=>  #808080
+medium grayish orange, rgb=> [128, 128, 128] , hsl=> [30.1176, 0, 50] , hex=>  #808080
+medium grayish yellow, rgb=> [128, 128, 128] , hsl=> [60.0, 0, 50] , hex=>  #808080
+medium grayish green, rgb=> [128, 128, 128] , hsl=> [120.0, 0, 50] , hex=>  #808080
+medium grayish blue, rgb=> [128, 128, 128] , hsl=> [240.0, 0, 50] , hex=>  #808080
+medium grayish purple, rgb=> [128, 128, 128] , hsl=> [300.0, 0, 50] , hex=>  #808080
+medium bit red, rgb=> [159, 96, 96] , hsl=> [0.0, 25, 50] , hex=>  #9f6060
+medium bit orange, rgb=> [159, 128, 96] , hsl=> [30.1176, 25, 50] , hex=>  #9f8060
+medium bit yellow, rgb=> [159, 159, 96] , hsl=> [60.0, 25, 50] , hex=>  #9f9f60
+medium bit green, rgb=> [96, 159, 96] , hsl=> [120.0, 25, 50] , hex=>  #609f60
+medium bit blue, rgb=> [96, 96, 159] , hsl=> [240.0, 25, 50] , hex=>  #60609f
+medium bit purple, rgb=> [159, 96, 159] , hsl=> [300.0, 25, 50] , hex=>  #9f609f
+medium moderate red, rgb=> [191, 64, 64] , hsl=> [0.0, 50, 50] , hex=>  #bf4040
+medium moderate orange, rgb=> [191, 128, 64] , hsl=> [30.1176, 50, 50] , hex=>  #bf8040
+medium moderate yellow, rgb=> [191, 191, 64] , hsl=> [60.0, 50, 50] , hex=>  #bfbf40
+medium moderate green, rgb=> [64, 191, 64] , hsl=> [120.0, 50, 50] , hex=>  #40bf40
+medium moderate blue, rgb=> [64, 64, 191] , hsl=> [240.0, 50, 50] , hex=>  #4040bf
+medium moderate purple, rgb=> [191, 64, 191] , hsl=> [300.0, 50, 50] , hex=>  #bf40bf
+medium strong red, rgb=> [223, 32, 32] , hsl=> [0.0, 75, 50] , hex=>  #df2020
+medium strong orange, rgb=> [223, 128, 32] , hsl=> [30.1176, 75, 50] , hex=>  #df8020
+medium strong yellow, rgb=> [223, 223, 32] , hsl=> [60.0, 75, 50] , hex=>  #dfdf20
+medium strong green, rgb=> [32, 223, 32] , hsl=> [120.0, 75, 50] , hex=>  #20df20
+medium strong blue, rgb=> [32, 32, 223] , hsl=> [240.0, 75, 50] , hex=>  #2020df
+medium strong purple, rgb=> [223, 32, 223] , hsl=> [300.0, 75, 50] , hex=>  #df20df
+medium vivid red, rgb=> [255, 0, 0] , hsl=> [0.0, 100, 50] , hex=>  #ff0000
+medium vivid orange, rgb=> [255, 128, 0] , hsl=> [30.1176, 100, 50] , hex=>  #ff8000
+medium vivid yellow, rgb=> [255, 255, 0] , hsl=> [60.0, 100, 50] , hex=>  #ffff00
+medium vivid green, rgb=> [0, 255, 0] , hsl=> [120.0, 100, 50] , hex=>  #00ff00
+medium vivid blue, rgb=> [0, 0, 255] , hsl=> [240.0, 100, 50] , hex=>  #0000ff
+medium vivid purple, rgb=> [255, 0, 255] , hsl=> [300.0, 100, 50] , hex=>  #ff00ff
+light grayish red, rgb=> [159, 159, 159] , hsl=> [0.0, 0, 62.5] , hex=>  #9f9f9f
+light grayish orange, rgb=> [159, 159, 159] , hsl=> [30.1176, 0, 62.5] , hex=>  #9f9f9f
+light grayish yellow, rgb=> [159, 159, 159] , hsl=> [60.0, 0, 62.5] , hex=>  #9f9f9f
+light grayish green, rgb=> [159, 159, 159] , hsl=> [120.0, 0, 62.5] , hex=>  #9f9f9f
+light grayish blue, rgb=> [159, 159, 159] , hsl=> [240.0, 0, 62.5] , hex=>  #9f9f9f
+light grayish purple, rgb=> [159, 159, 159] , hsl=> [300.0, 0, 62.5] , hex=>  #9f9f9f
+light bit red, rgb=> [183, 135, 135] , hsl=> [0.0, 25, 62.5] , hex=>  #b78787
+light bit orange, rgb=> [183, 159, 135] , hsl=> [30.1176, 25, 62.5] , hex=>  #b79f87
+light bit yellow, rgb=> [183, 183, 135] , hsl=> [60.0, 25, 62.5] , hex=>  #b7b787
+light bit green, rgb=> [135, 183, 135] , hsl=> [120.0, 25, 62.5] , hex=>  #87b787
+light bit blue, rgb=> [135, 135, 183] , hsl=> [240.0, 25, 62.5] , hex=>  #8787b7
+light bit purple, rgb=> [183, 135, 183] , hsl=> [300.0, 25, 62.5] , hex=>  #b787b7
+light moderate red, rgb=> [207, 112, 112] , hsl=> [0.0, 50, 62.5] , hex=>  #cf7070
+light moderate orange, rgb=> [207, 160, 112] , hsl=> [30.1176, 50, 62.5] , hex=>  #cfa070
+light moderate yellow, rgb=> [207, 207, 112] , hsl=> [60.0, 50, 62.5] , hex=>  #cfcf70
+light moderate green, rgb=> [112, 207, 112] , hsl=> [120.0, 50, 62.5] , hex=>  #70cf70
+light moderate blue, rgb=> [112, 112, 207] , hsl=> [240.0, 50, 62.5] , hex=>  #7070cf
+light moderate purple, rgb=> [207, 112, 207] , hsl=> [300.0, 50, 62.5] , hex=>  #cf70cf
+light strong red, rgb=> [231, 88, 88] , hsl=> [0.0, 75, 62.5] , hex=>  #e75858
+light strong orange, rgb=> [231, 160, 88] , hsl=> [30.1176, 75, 62.5] , hex=>  #e7a058
+light strong yellow, rgb=> [231, 231, 88] , hsl=> [60.0, 75, 62.5] , hex=>  #e7e758
+light strong green, rgb=> [88, 231, 88] , hsl=> [120.0, 75, 62.5] , hex=>  #58e758
+light strong blue, rgb=> [88, 88, 231] , hsl=> [240.0, 75, 62.5] , hex=>  #5858e7
+light strong purple, rgb=> [231, 88, 231] , hsl=> [300.0, 75, 62.5] , hex=>  #e758e7
+light vivid red, rgb=> [255, 64, 64] , hsl=> [0.0, 100, 62.5] , hex=>  #ff4040
+light vivid orange, rgb=> [255, 160, 64] , hsl=> [30.1176, 100, 62.5] , hex=>  #ffa040
+light vivid yellow, rgb=> [255, 255, 64] , hsl=> [60.0, 100, 62.5] , hex=>  #ffff40
+light vivid green, rgb=> [64, 255, 64] , hsl=> [120.0, 100, 62.5] , hex=>  #40ff40
+light vivid blue, rgb=> [64, 64, 255] , hsl=> [240.0, 100, 62.5] , hex=>  #4040ff
+light vivid purple, rgb=> [255, 64, 255] , hsl=> [300.0, 100, 62.5] , hex=>  #ff40ff
+very light grayish red, rgb=> [191, 191, 191] , hsl=> [0.0, 0, 75] , hex=>  #bfbfbf
+very light grayish orange, rgb=> [191, 191, 191] , hsl=> [30.1176, 0, 75] , hex=>  #bfbfbf
+very light grayish yellow, rgb=> [191, 191, 191] , hsl=> [60.0, 0, 75] , hex=>  #bfbfbf
+very light grayish green, rgb=> [191, 191, 191] , hsl=> [120.0, 0, 75] , hex=>  #bfbfbf
+very light grayish blue, rgb=> [191, 191, 191] , hsl=> [240.0, 0, 75] , hex=>  #bfbfbf
+very light grayish purple, rgb=> [191, 191, 191] , hsl=> [300.0, 0, 75] , hex=>  #bfbfbf
+very light bit red, rgb=> [207, 175, 175] , hsl=> [0.0, 25, 75] , hex=>  #cfafaf
+very light bit orange, rgb=> [207, 191, 175] , hsl=> [30.1176, 25, 75] , hex=>  #cfbfaf
+very light bit yellow, rgb=> [207, 207, 175] , hsl=> [60.0, 25, 75] , hex=>  #cfcfaf
+very light bit green, rgb=> [175, 207, 175] , hsl=> [120.0, 25, 75] , hex=>  #afcfaf
+very light bit blue, rgb=> [175, 175, 207] , hsl=> [240.0, 25, 75] , hex=>  #afafcf
+very light bit purple, rgb=> [207, 175, 207] , hsl=> [300.0, 25, 75] , hex=>  #cfafcf
+very light moderate red, rgb=> [223, 159, 159] , hsl=> [0.0, 50, 75] , hex=>  #df9f9f
+very light moderate orange, rgb=> [223, 191, 159] , hsl=> [30.1176, 50, 75] , hex=>  #dfbf9f
+very light moderate yellow, rgb=> [223, 223, 159] , hsl=> [60.0, 50, 75] , hex=>  #dfdf9f
+very light moderate green, rgb=> [159, 223, 159] , hsl=> [120.0, 50, 75] , hex=>  #9fdf9f
+very light moderate blue, rgb=> [159, 159, 223] , hsl=> [240.0, 50, 75] , hex=>  #9f9fdf
+very light moderate purple, rgb=> [223, 159, 223] , hsl=> [300.0, 50, 75] , hex=>  #df9fdf
+very light strong red, rgb=> [239, 143, 143] , hsl=> [0.0, 75, 75] , hex=>  #ef8f8f
+very light strong orange, rgb=> [239, 191, 143] , hsl=> [30.1176, 75, 75] , hex=>  #efbf8f
+very light strong yellow, rgb=> [239, 239, 143] , hsl=> [60.0, 75, 75] , hex=>  #efef8f
+very light strong green, rgb=> [143, 239, 143] , hsl=> [120.0, 75, 75] , hex=>  #8fef8f
+very light strong blue, rgb=> [143, 143, 239] , hsl=> [240.0, 75, 75] , hex=>  #8f8fef
+very light strong purple, rgb=> [239, 143, 239] , hsl=> [300.0, 75, 75] , hex=>  #ef8fef
+very light vivid red, rgb=> [255, 128, 128] , hsl=> [0.0, 100, 75] , hex=>  #ff8080
+very light vivid orange, rgb=> [255, 191, 128] , hsl=> [30.1176, 100, 75] , hex=>  #ffbf80
+very light vivid yellow, rgb=> [255, 255, 128] , hsl=> [60.0, 100, 75] , hex=>  #ffff80
+very light vivid green, rgb=> [128, 255, 128] , hsl=> [120.0, 100, 75] , hex=>  #80ff80
+very light vivid blue, rgb=> [128, 128, 255] , hsl=> [240.0, 100, 75] , hex=>  #8080ff
+very light vivid purple, rgb=> [255, 128, 255] , hsl=> [300.0, 100, 75] , hex=>  #ff80ff
+extreme light grayish red, rgb=> [230, 230, 230] , hsl=> [0.0, 0, 90] , hex=>  #e6e6e6
+extreme light grayish orange, rgb=> [230, 230, 230] , hsl=> [30.1176, 0, 90] , hex=>  #e6e6e6
+extreme light grayish yellow, rgb=> [230, 230, 230] , hsl=> [60.0, 0, 90] , hex=>  #e6e6e6
+extreme light grayish green, rgb=> [230, 230, 230] , hsl=> [120.0, 0, 90] , hex=>  #e6e6e6
+extreme light grayish blue, rgb=> [230, 230, 230] , hsl=> [240.0, 0, 90] , hex=>  #e6e6e6
+extreme light grayish purple, rgb=> [230, 230, 230] , hsl=> [300.0, 0, 90] , hex=>  #e6e6e6
+extreme light bit red, rgb=> [236, 223, 223] , hsl=> [0.0, 25, 90] , hex=>  #ecdfdf
+extreme light bit orange, rgb=> [236, 230, 223] , hsl=> [30.1176, 25, 90] , hex=>  #ece6df
+extreme light bit yellow, rgb=> [236, 236, 223] , hsl=> [60.0, 25, 90] , hex=>  #ececdf
+extreme light bit green, rgb=> [223, 236, 223] , hsl=> [120.0, 25, 90] , hex=>  #dfecdf
+extreme light bit blue, rgb=> [223, 223, 236] , hsl=> [240.0, 25, 90] , hex=>  #dfdfec
+extreme light bit purple, rgb=> [236, 223, 236] , hsl=> [300.0, 25, 90] , hex=>  #ecdfec
+extreme light moderate red, rgb=> [242, 217, 217] , hsl=> [0.0, 50, 90] , hex=>  #f2d9d9
+extreme light moderate orange, rgb=> [242, 230, 217] , hsl=> [30.1176, 50, 90] , hex=>  #f2e6d9
+extreme light moderate yellow, rgb=> [242, 242, 217] , hsl=> [60.0, 50, 90] , hex=>  #f2f2d9
+extreme light moderate green, rgb=> [217, 242, 217] , hsl=> [120.0, 50, 90] , hex=>  #d9f2d9
+extreme light moderate blue, rgb=> [217, 217, 242] , hsl=> [240.0, 50, 90] , hex=>  #d9d9f2
+extreme light moderate purple, rgb=> [242, 217, 242] , hsl=> [300.0, 50, 90] , hex=>  #f2d9f2
+extreme light strong red, rgb=> [249, 210, 210] , hsl=> [0.0, 75, 90] , hex=>  #f9d2d2
+extreme light strong orange, rgb=> [249, 230, 210] , hsl=> [30.1176, 75, 90] , hex=>  #f9e6d2
+extreme light strong yellow, rgb=> [249, 249, 210] , hsl=> [60.0, 75, 90] , hex=>  #f9f9d2
+extreme light strong green, rgb=> [210, 249, 210] , hsl=> [120.0, 75, 90] , hex=>  #d2f9d2
+extreme light strong blue, rgb=> [210, 210, 249] , hsl=> [240.0, 75, 90] , hex=>  #d2d2f9
+extreme light strong purple, rgb=> [249, 210, 249] , hsl=> [300.0, 75, 90] , hex=>  #f9d2f9
+extreme light vivid red, rgb=> [255, 204, 204] , hsl=> [0.0, 100, 90] , hex=>  #ffcccc
+extreme light vivid orange, rgb=> [255, 230, 204] , hsl=> [30.1176, 100, 90] , hex=>  #ffe6cc
+extreme light vivid yellow, rgb=> [255, 255, 204] , hsl=> [60.0, 100, 90] , hex=>  #ffffcc
+extreme light vivid green, rgb=> [204, 255, 204] , hsl=> [120.0, 100, 90] , hex=>  #ccffcc
+extreme light vivid blue, rgb=> [204, 204, 255] , hsl=> [240.0, 100, 90] , hex=>  #ccccff
+extreme light vivid purple, rgb=> [255, 204, 255] , hsl=> [300.0, 100, 90] , hex=>  #ffccff
+extreme dark grayish red_orange, rgb=> [26, 26, 26] , hsl=> [15.0588, 0, 10] , hex=>  #1a1a1a
+extreme dark grayish orange_yellow, rgb=> [26, 26, 26] , hsl=> [45.1765, 0, 10] , hex=>  #1a1a1a
+extreme dark grayish yellow_green, rgb=> [26, 26, 26] , hsl=> [89.8824, 0, 10] , hex=>  #1a1a1a
+extreme dark grayish green_blue, rgb=> [26, 26, 26] , hsl=> [180.0, 0, 10] , hex=>  #1a1a1a
+extreme dark grayish blue_purple, rgb=> [26, 26, 26] , hsl=> [260.0, 0, 10] , hex=>  #1a1a1a
+extreme dark grayish purple_red, rgb=> [26, 26, 26] , hsl=> [340.0, 0, 10] , hex=>  #1a1a1a
+extreme dark bit red_orange, rgb=> [32, 22, 19] , hsl=> [15.0588, 25, 10] , hex=>  #201613
+extreme dark bit orange_yellow, rgb=> [32, 29, 19] , hsl=> [45.1765, 25, 10] , hex=>  #201d13
+extreme dark bit yellow_green, rgb=> [26, 32, 19] , hsl=> [89.8824, 25, 10] , hex=>  #1a2013
+extreme dark bit green_blue, rgb=> [19, 32, 32] , hsl=> [180.0, 25, 10] , hex=>  #132020
+extreme dark bit blue_purple, rgb=> [23, 19, 32] , hsl=> [260.0, 25, 10] , hex=>  #171320
+extreme dark bit purple_red, rgb=> [32, 19, 23] , hsl=> [340.0, 25, 10] , hex=>  #201317
+extreme dark moderate red_orange, rgb=> [38, 19, 13] , hsl=> [15.0588, 50, 10] , hex=>  #26130d
+extreme dark moderate orange_yellow, rgb=> [38, 32, 13] , hsl=> [45.1765, 50, 10] , hex=>  #26200d
+extreme dark moderate yellow_green, rgb=> [26, 38, 13] , hsl=> [89.8824, 50, 10] , hex=>  #1a260d
+extreme dark moderate green_blue, rgb=> [13, 38, 38] , hsl=> [180.0, 50, 10] , hex=>  #0d2626
+extreme dark moderate blue_purple, rgb=> [21, 13, 38] , hsl=> [260.0, 50, 10] , hex=>  #150d26
+extreme dark moderate purple_red, rgb=> [38, 13, 21] , hsl=> [340.0, 50, 10] , hex=>  #260d15
+extreme dark strong red_orange, rgb=> [45, 16, 6] , hsl=> [15.0588, 75, 10] , hex=>  #2d1006
+extreme dark strong orange_yellow, rgb=> [45, 35, 6] , hsl=> [45.1765, 75, 10] , hex=>  #2d2306
+extreme dark strong yellow_green, rgb=> [26, 45, 6] , hsl=> [89.8824, 75, 10] , hex=>  #1a2d06
+extreme dark strong green_blue, rgb=> [6, 45, 45] , hsl=> [180.0, 75, 10] , hex=>  #062d2d
+extreme dark strong blue_purple, rgb=> [19, 6, 45] , hsl=> [260.0, 75, 10] , hex=>  #13062d
+extreme dark strong purple_red, rgb=> [45, 6, 19] , hsl=> [340.0, 75, 10] , hex=>  #2d0613
+extreme dark vivid red_orange, rgb=> [51, 13, 0] , hsl=> [15.0588, 100, 10] , hex=>  #330d00
+extreme dark vivid orange_yellow, rgb=> [51, 38, 0] , hsl=> [45.1765, 100, 10] , hex=>  #332600
+extreme dark vivid yellow_green, rgb=> [26, 51, 0] , hsl=> [89.8824, 100, 10] , hex=>  #1a3300
+extreme dark vivid green_blue, rgb=> [0, 51, 51] , hsl=> [180.0, 100, 10] , hex=>  #003333
+extreme dark vivid blue_purple, rgb=> [17, 0, 51] , hsl=> [260.0, 100, 10] , hex=>  #110033
+extreme dark vivid purple_red, rgb=> [51, 0, 17] , hsl=> [340.0, 100, 10] , hex=>  #330011
+very dark grayish red_orange, rgb=> [64, 64, 64] , hsl=> [15.0588, 0, 25] , hex=>  #404040
+very dark grayish orange_yellow, rgb=> [64, 64, 64] , hsl=> [45.1765, 0, 25] , hex=>  #404040
+very dark grayish yellow_green, rgb=> [64, 64, 64] , hsl=> [89.8824, 0, 25] , hex=>  #404040
+very dark grayish green_blue, rgb=> [64, 64, 64] , hsl=> [180.0, 0, 25] , hex=>  #404040
+very dark grayish blue_purple, rgb=> [64, 64, 64] , hsl=> [260.0, 0, 25] , hex=>  #404040
+very dark grayish purple_red, rgb=> [64, 64, 64] , hsl=> [340.0, 0, 25] , hex=>  #404040
+very dark bit red_orange, rgb=> [80, 56, 48] , hsl=> [15.0588, 25, 25] , hex=>  #503830
+very dark bit orange_yellow, rgb=> [80, 72, 48] , hsl=> [45.1765, 25, 25] , hex=>  #504830
+very dark bit yellow_green, rgb=> [64, 80, 48] , hsl=> [89.8824, 25, 25] , hex=>  #405030
+very dark bit green_blue, rgb=> [48, 80, 80] , hsl=> [180.0, 25, 25] , hex=>  #305050
+very dark bit blue_purple, rgb=> [58, 48, 80] , hsl=> [260.0, 25, 25] , hex=>  #3a3050
+very dark bit purple_red, rgb=> [80, 48, 58] , hsl=> [340.0, 25, 25] , hex=>  #50303a
+very dark moderate red_orange, rgb=> [96, 48, 32] , hsl=> [15.0588, 50, 25] , hex=>  #603020
+very dark moderate orange_yellow, rgb=> [96, 80, 32] , hsl=> [45.1765, 50, 25] , hex=>  #605020
+very dark moderate yellow_green, rgb=> [64, 96, 32] , hsl=> [89.8824, 50, 25] , hex=>  #406020
+very dark moderate green_blue, rgb=> [32, 96, 96] , hsl=> [180.0, 50, 25] , hex=>  #206060
+very dark moderate blue_purple, rgb=> [53, 32, 96] , hsl=> [260.0, 50, 25] , hex=>  #352060
+very dark moderate purple_red, rgb=> [96, 32, 53] , hsl=> [340.0, 50, 25] , hex=>  #602035
+very dark strong red_orange, rgb=> [112, 40, 16] , hsl=> [15.0588, 75, 25] , hex=>  #702810
+very dark strong orange_yellow, rgb=> [112, 88, 16] , hsl=> [45.1765, 75, 25] , hex=>  #705810
+very dark strong yellow_green, rgb=> [64, 112, 16] , hsl=> [89.8824, 75, 25] , hex=>  #407010
+very dark strong green_blue, rgb=> [16, 112, 112] , hsl=> [180.0, 75, 25] , hex=>  #107070
+very dark strong blue_purple, rgb=> [48, 16, 112] , hsl=> [260.0, 75, 25] , hex=>  #301070
+very dark strong purple_red, rgb=> [112, 16, 48] , hsl=> [340.0, 75, 25] , hex=>  #701030
+very dark vivid red_orange, rgb=> [128, 32, 0] , hsl=> [15.0588, 100, 25] , hex=>  #802000
+very dark vivid orange_yellow, rgb=> [128, 96, 0] , hsl=> [45.1765, 100, 25] , hex=>  #806000
+very dark vivid yellow_green, rgb=> [64, 128, 0] , hsl=> [89.8824, 100, 25] , hex=>  #408000
+very dark vivid green_blue, rgb=> [0, 128, 128] , hsl=> [180.0, 100, 25] , hex=>  #008080
+very dark vivid blue_purple, rgb=> [42, 0, 128] , hsl=> [260.0, 100, 25] , hex=>  #2a0080
+very dark vivid purple_red, rgb=> [128, 0, 42] , hsl=> [340.0, 100, 25] , hex=>  #80002a
+dark grayish red_orange, rgb=> [96, 96, 96] , hsl=> [15.0588, 0, 37.5] , hex=>  #606060
+dark grayish orange_yellow, rgb=> [96, 96, 96] , hsl=> [45.1765, 0, 37.5] , hex=>  #606060
+dark grayish yellow_green, rgb=> [96, 96, 96] , hsl=> [89.8824, 0, 37.5] , hex=>  #606060
+dark grayish green_blue, rgb=> [96, 96, 96] , hsl=> [180.0, 0, 37.5] , hex=>  #606060
+dark grayish blue_purple, rgb=> [96, 96, 96] , hsl=> [260.0, 0, 37.5] , hex=>  #606060
+dark grayish purple_red, rgb=> [96, 96, 96] , hsl=> [340.0, 0, 37.5] , hex=>  #606060
+dark bit red_orange, rgb=> [120, 84, 72] , hsl=> [15.0588, 25, 37.5] , hex=>  #785448
+dark bit orange_yellow, rgb=> [120, 108, 72] , hsl=> [45.1765, 25, 37.5] , hex=>  #786c48
+dark bit yellow_green, rgb=> [96, 120, 72] , hsl=> [89.8824, 25, 37.5] , hex=>  #607848
+dark bit green_blue, rgb=> [72, 120, 120] , hsl=> [180.0, 25, 37.5] , hex=>  #487878
+dark bit blue_purple, rgb=> [88, 72, 120] , hsl=> [260.0, 25, 37.5] , hex=>  #584878
+dark bit purple_red, rgb=> [120, 72, 88] , hsl=> [340.0, 25, 37.5] , hex=>  #784858
+dark moderate red_orange, rgb=> [143, 72, 48] , hsl=> [15.0588, 50, 37.5] , hex=>  #8f4830
+dark moderate orange_yellow, rgb=> [143, 120, 48] , hsl=> [45.1765, 50, 37.5] , hex=>  #8f7830
+dark moderate yellow_green, rgb=> [96, 143, 48] , hsl=> [89.8824, 50, 37.5] , hex=>  #608f30
+dark moderate green_blue, rgb=> [48, 143, 143] , hsl=> [180.0, 50, 37.5] , hex=>  #308f8f
+dark moderate blue_purple, rgb=> [80, 48, 143] , hsl=> [260.0, 50, 37.5] , hex=>  #50308f
+dark moderate purple_red, rgb=> [143, 48, 80] , hsl=> [340.0, 50, 37.5] , hex=>  #8f3050
+dark strong red_orange, rgb=> [167, 60, 24] , hsl=> [15.0588, 75, 37.5] , hex=>  #a73c18
+dark strong orange_yellow, rgb=> [167, 132, 24] , hsl=> [45.1765, 75, 37.5] , hex=>  #a78418
+dark strong yellow_green, rgb=> [96, 167, 24] , hsl=> [89.8824, 75, 37.5] , hex=>  #60a718
+dark strong green_blue, rgb=> [24, 167, 167] , hsl=> [180.0, 75, 37.5] , hex=>  #18a7a7
+dark strong blue_purple, rgb=> [72, 24, 167] , hsl=> [260.0, 75, 37.5] , hex=>  #4818a7
+dark strong purple_red, rgb=> [167, 24, 72] , hsl=> [340.0, 75, 37.5] , hex=>  #a71848
+dark vivid red_orange, rgb=> [191, 48, 0] , hsl=> [15.0588, 100, 37.5] , hex=>  #bf3000
+dark vivid orange_yellow, rgb=> [191, 144, 0] , hsl=> [45.1765, 100, 37.5] , hex=>  #bf9000
+dark vivid yellow_green, rgb=> [96, 191, 0] , hsl=> [89.8824, 100, 37.5] , hex=>  #60bf00
+dark vivid green_blue, rgb=> [0, 191, 191] , hsl=> [180.0, 100, 37.5] , hex=>  #00bfbf
+dark vivid blue_purple, rgb=> [64, 0, 191] , hsl=> [260.0, 100, 37.5] , hex=>  #4000bf
+dark vivid purple_red, rgb=> [191, 0, 64] , hsl=> [340.0, 100, 37.5] , hex=>  #bf0040
+medium grayish red_orange, rgb=> [128, 128, 128] , hsl=> [15.0588, 0, 50] , hex=>  #808080
+medium grayish orange_yellow, rgb=> [128, 128, 128] , hsl=> [45.1765, 0, 50] , hex=>  #808080
+medium grayish yellow_green, rgb=> [128, 128, 128] , hsl=> [89.8824, 0, 50] , hex=>  #808080
+medium grayish green_blue, rgb=> [128, 128, 128] , hsl=> [180.0, 0, 50] , hex=>  #808080
+medium grayish blue_purple, rgb=> [128, 128, 128] , hsl=> [260.0, 0, 50] , hex=>  #808080
+medium grayish purple_red, rgb=> [128, 128, 128] , hsl=> [340.0, 0, 50] , hex=>  #808080
+medium bit red_orange, rgb=> [159, 112, 96] , hsl=> [15.0588, 25, 50] , hex=>  #9f7060
+medium bit orange_yellow, rgb=> [159, 144, 96] , hsl=> [45.1765, 25, 50] , hex=>  #9f9060
+medium bit yellow_green, rgb=> [128, 159, 96] , hsl=> [89.8824, 25, 50] , hex=>  #809f60
+medium bit green_blue, rgb=> [96, 159, 159] , hsl=> [180.0, 25, 50] , hex=>  #609f9f
+medium bit blue_purple, rgb=> [117, 96, 159] , hsl=> [260.0, 25, 50] , hex=>  #75609f
+medium bit purple_red, rgb=> [159, 96, 117] , hsl=> [340.0, 25, 50] , hex=>  #9f6075
+medium moderate red_orange, rgb=> [191, 96, 64] , hsl=> [15.0588, 50, 50] , hex=>  #bf6040
+medium moderate orange_yellow, rgb=> [191, 160, 64] , hsl=> [45.1765, 50, 50] , hex=>  #bfa040
+medium moderate yellow_green, rgb=> [128, 191, 64] , hsl=> [89.8824, 50, 50] , hex=>  #80bf40
+medium moderate green_blue, rgb=> [64, 191, 191] , hsl=> [180.0, 50, 50] , hex=>  #40bfbf
+medium moderate blue_purple, rgb=> [106, 64, 191] , hsl=> [260.0, 50, 50] , hex=>  #6a40bf
+medium moderate purple_red, rgb=> [191, 64, 106] , hsl=> [340.0, 50, 50] , hex=>  #bf406a
+medium strong red_orange, rgb=> [223, 80, 32] , hsl=> [15.0588, 75, 50] , hex=>  #df5020
+medium strong orange_yellow, rgb=> [223, 176, 32] , hsl=> [45.1765, 75, 50] , hex=>  #dfb020
+medium strong yellow_green, rgb=> [128, 223, 32] , hsl=> [89.8824, 75, 50] , hex=>  #80df20
+medium strong green_blue, rgb=> [32, 223, 223] , hsl=> [180.0, 75, 50] , hex=>  #20dfdf
+medium strong blue_purple, rgb=> [96, 32, 223] , hsl=> [260.0, 75, 50] , hex=>  #6020df
+medium strong purple_red, rgb=> [223, 32, 96] , hsl=> [340.0, 75, 50] , hex=>  #df2060
+medium vivid red_orange, rgb=> [255, 64, 0] , hsl=> [15.0588, 100, 50] , hex=>  #ff4000
+medium vivid orange_yellow, rgb=> [255, 192, 0] , hsl=> [45.1765, 100, 50] , hex=>  #ffc000
+medium vivid yellow_green, rgb=> [128, 255, 0] , hsl=> [89.8824, 100, 50] , hex=>  #80ff00
+medium vivid green_blue, rgb=> [0, 255, 255] , hsl=> [180.0, 100, 50] , hex=>  #00ffff
+medium vivid blue_purple, rgb=> [85, 0, 255] , hsl=> [260.0, 100, 50] , hex=>  #5500ff
+medium vivid purple_red, rgb=> [255, 0, 85] , hsl=> [340.0, 100, 50] , hex=>  #ff0055
+light grayish red_orange, rgb=> [159, 159, 159] , hsl=> [15.0588, 0, 62.5] , hex=>  #9f9f9f
+light grayish orange_yellow, rgb=> [159, 159, 159] , hsl=> [45.1765, 0, 62.5] , hex=>  #9f9f9f
+light grayish yellow_green, rgb=> [159, 159, 159] , hsl=> [89.8824, 0, 62.5] , hex=>  #9f9f9f
+light grayish green_blue, rgb=> [159, 159, 159] , hsl=> [180.0, 0, 62.5] , hex=>  #9f9f9f
+light grayish blue_purple, rgb=> [159, 159, 159] , hsl=> [260.0, 0, 62.5] , hex=>  #9f9f9f
+light grayish purple_red, rgb=> [159, 159, 159] , hsl=> [340.0, 0, 62.5] , hex=>  #9f9f9f
+light bit red_orange, rgb=> [183, 147, 135] , hsl=> [15.0588, 25, 62.5] , hex=>  #b79387
+light bit orange_yellow, rgb=> [183, 171, 135] , hsl=> [45.1765, 25, 62.5] , hex=>  #b7ab87
+light bit yellow_green, rgb=> [159, 183, 135] , hsl=> [89.8824, 25, 62.5] , hex=>  #9fb787
+light bit green_blue, rgb=> [135, 183, 183] , hsl=> [180.0, 25, 62.5] , hex=>  #87b7b7
+light bit blue_purple, rgb=> [151, 135, 183] , hsl=> [260.0, 25, 62.5] , hex=>  #9787b7
+light bit purple_red, rgb=> [183, 135, 151] , hsl=> [340.0, 25, 62.5] , hex=>  #b78797
+light moderate red_orange, rgb=> [207, 136, 112] , hsl=> [15.0588, 50, 62.5] , hex=>  #cf8870
+light moderate orange_yellow, rgb=> [207, 184, 112] , hsl=> [45.1765, 50, 62.5] , hex=>  #cfb870
+light moderate yellow_green, rgb=> [160, 207, 112] , hsl=> [89.8824, 50, 62.5] , hex=>  #a0cf70
+light moderate green_blue, rgb=> [112, 207, 207] , hsl=> [180.0, 50, 62.5] , hex=>  #70cfcf
+light moderate blue_purple, rgb=> [143, 112, 207] , hsl=> [260.0, 50, 62.5] , hex=>  #8f70cf
+light moderate purple_red, rgb=> [207, 112, 143] , hsl=> [340.0, 50, 62.5] , hex=>  #cf708f
+light strong red_orange, rgb=> [231, 124, 88] , hsl=> [15.0588, 75, 62.5] , hex=>  #e77c58
+light strong orange_yellow, rgb=> [231, 196, 88] , hsl=> [45.1765, 75, 62.5] , hex=>  #e7c458
+light strong yellow_green, rgb=> [160, 231, 88] , hsl=> [89.8824, 75, 62.5] , hex=>  #a0e758
+light strong green_blue, rgb=> [88, 231, 231] , hsl=> [180.0, 75, 62.5] , hex=>  #58e7e7
+light strong blue_purple, rgb=> [135, 88, 231] , hsl=> [260.0, 75, 62.5] , hex=>  #8758e7
+light strong purple_red, rgb=> [231, 88, 135] , hsl=> [340.0, 75, 62.5] , hex=>  #e75887
+light vivid red_orange, rgb=> [255, 112, 64] , hsl=> [15.0588, 100, 62.5] , hex=>  #ff7040
+light vivid orange_yellow, rgb=> [255, 208, 64] , hsl=> [45.1765, 100, 62.5] , hex=>  #ffd040
+light vivid yellow_green, rgb=> [160, 255, 64] , hsl=> [89.8824, 100, 62.5] , hex=>  #a0ff40
+light vivid green_blue, rgb=> [64, 255, 255] , hsl=> [180.0, 100, 62.5] , hex=>  #40ffff
+light vivid blue_purple, rgb=> [127, 64, 255] , hsl=> [260.0, 100, 62.5] , hex=>  #7f40ff
+light vivid purple_red, rgb=> [255, 64, 127] , hsl=> [340.0, 100, 62.5] , hex=>  #ff407f
+very light grayish red_orange, rgb=> [191, 191, 191] , hsl=> [15.0588, 0, 75] , hex=>  #bfbfbf
+very light grayish orange_yellow, rgb=> [191, 191, 191] , hsl=> [45.1765, 0, 75] , hex=>  #bfbfbf
+very light grayish yellow_green, rgb=> [191, 191, 191] , hsl=> [89.8824, 0, 75] , hex=>  #bfbfbf
+very light grayish green_blue, rgb=> [191, 191, 191] , hsl=> [180.0, 0, 75] , hex=>  #bfbfbf
+very light grayish blue_purple, rgb=> [191, 191, 191] , hsl=> [260.0, 0, 75] , hex=>  #bfbfbf
+very light grayish purple_red, rgb=> [191, 191, 191] , hsl=> [340.0, 0, 75] , hex=>  #bfbfbf
+very light bit red_orange, rgb=> [207, 183, 175] , hsl=> [15.0588, 25, 75] , hex=>  #cfb7af
+very light bit orange_yellow, rgb=> [207, 199, 175] , hsl=> [45.1765, 25, 75] , hex=>  #cfc7af
+very light bit yellow_green, rgb=> [191, 207, 175] , hsl=> [89.8824, 25, 75] , hex=>  #bfcfaf
+very light bit green_blue, rgb=> [175, 207, 207] , hsl=> [180.0, 25, 75] , hex=>  #afcfcf
+very light bit blue_purple, rgb=> [186, 175, 207] , hsl=> [260.0, 25, 75] , hex=>  #baafcf
+very light bit purple_red, rgb=> [207, 175, 186] , hsl=> [340.0, 25, 75] , hex=>  #cfafba
+very light moderate red_orange, rgb=> [223, 175, 159] , hsl=> [15.0588, 50, 75] , hex=>  #dfaf9f
+very light moderate orange_yellow, rgb=> [223, 207, 159] , hsl=> [45.1765, 50, 75] , hex=>  #dfcf9f
+very light moderate yellow_green, rgb=> [191, 223, 159] , hsl=> [89.8824, 50, 75] , hex=>  #bfdf9f
+very light moderate green_blue, rgb=> [159, 223, 223] , hsl=> [180.0, 50, 75] , hex=>  #9fdfdf
+very light moderate blue_purple, rgb=> [181, 159, 223] , hsl=> [260.0, 50, 75] , hex=>  #b59fdf
+very light moderate purple_red, rgb=> [223, 159, 181] , hsl=> [340.0, 50, 75] , hex=>  #df9fb5
+very light strong red_orange, rgb=> [239, 167, 143] , hsl=> [15.0588, 75, 75] , hex=>  #efa78f
+very light strong orange_yellow, rgb=> [239, 215, 143] , hsl=> [45.1765, 75, 75] , hex=>  #efd78f
+very light strong yellow_green, rgb=> [191, 239, 143] , hsl=> [89.8824, 75, 75] , hex=>  #bfef8f
+very light strong green_blue, rgb=> [143, 239, 239] , hsl=> [180.0, 75, 75] , hex=>  #8fefef
+very light strong blue_purple, rgb=> [175, 143, 239] , hsl=> [260.0, 75, 75] , hex=>  #af8fef
+very light strong purple_red, rgb=> [239, 143, 175] , hsl=> [340.0, 75, 75] , hex=>  #ef8faf
+very light vivid red_orange, rgb=> [255, 159, 128] , hsl=> [15.0588, 100, 75] , hex=>  #ff9f80
+very light vivid orange_yellow, rgb=> [255, 224, 128] , hsl=> [45.1765, 100, 75] , hex=>  #ffe080
+very light vivid yellow_green, rgb=> [191, 255, 128] , hsl=> [89.8824, 100, 75] , hex=>  #bfff80
+very light vivid green_blue, rgb=> [128, 255, 255] , hsl=> [180.0, 100, 75] , hex=>  #80ffff
+very light vivid blue_purple, rgb=> [170, 128, 255] , hsl=> [260.0, 100, 75] , hex=>  #aa80ff
+very light vivid purple_red, rgb=> [255, 128, 170] , hsl=> [340.0, 100, 75] , hex=>  #ff80aa
+extreme light grayish red_orange, rgb=> [230, 230, 230] , hsl=> [15.0588, 0, 90] , hex=>  #e6e6e6
+extreme light grayish orange_yellow, rgb=> [230, 230, 230] , hsl=> [45.1765, 0, 90] , hex=>  #e6e6e6
+extreme light grayish yellow_green, rgb=> [230, 230, 230] , hsl=> [89.8824, 0, 90] , hex=>  #e6e6e6
+extreme light grayish green_blue, rgb=> [230, 230, 230] , hsl=> [180.0, 0, 90] , hex=>  #e6e6e6
+extreme light grayish blue_purple, rgb=> [230, 230, 230] , hsl=> [260.0, 0, 90] , hex=>  #e6e6e6
+extreme light grayish purple_red, rgb=> [230, 230, 230] , hsl=> [340.0, 0, 90] , hex=>  #e6e6e6
+extreme light bit red_orange, rgb=> [236, 226, 223] , hsl=> [15.0588, 25, 90] , hex=>  #ece2df
+extreme light bit orange_yellow, rgb=> [236, 233, 223] , hsl=> [45.1765, 25, 90] , hex=>  #ece9df
+extreme light bit yellow_green, rgb=> [230, 236, 223] , hsl=> [89.8824, 25, 90] , hex=>  #e6ecdf
+extreme light bit green_blue, rgb=> [223, 236, 236] , hsl=> [180.0, 25, 90] , hex=>  #dfecec
+extreme light bit blue_purple, rgb=> [227, 223, 236] , hsl=> [260.0, 25, 90] , hex=>  #e3dfec
+extreme light bit purple_red, rgb=> [236, 223, 227] , hsl=> [340.0, 25, 90] , hex=>  #ecdfe3
+extreme light moderate red_orange, rgb=> [242, 223, 217] , hsl=> [15.0588, 50, 90] , hex=>  #f2dfd9
+extreme light moderate orange_yellow, rgb=> [242, 236, 217] , hsl=> [45.1765, 50, 90] , hex=>  #f2ecd9
+extreme light moderate yellow_green, rgb=> [230, 242, 217] , hsl=> [89.8824, 50, 90] , hex=>  #e6f2d9
+extreme light moderate green_blue, rgb=> [217, 242, 242] , hsl=> [180.0, 50, 90] , hex=>  #d9f2f2
+extreme light moderate blue_purple, rgb=> [225, 217, 242] , hsl=> [260.0, 50, 90] , hex=>  #e1d9f2
+extreme light moderate purple_red, rgb=> [242, 217, 225] , hsl=> [340.0, 50, 90] , hex=>  #f2d9e1
+extreme light strong red_orange, rgb=> [249, 220, 210] , hsl=> [15.0588, 75, 90] , hex=>  #f9dcd2
+extreme light strong orange_yellow, rgb=> [249, 239, 210] , hsl=> [45.1765, 75, 90] , hex=>  #f9efd2
+extreme light strong yellow_green, rgb=> [230, 249, 210] , hsl=> [89.8824, 75, 90] , hex=>  #e6f9d2
+extreme light strong green_blue, rgb=> [210, 249, 249] , hsl=> [180.0, 75, 90] , hex=>  #d2f9f9
+extreme light strong blue_purple, rgb=> [223, 210, 249] , hsl=> [260.0, 75, 90] , hex=>  #dfd2f9
+extreme light strong purple_red, rgb=> [249, 210, 223] , hsl=> [340.0, 75, 90] , hex=>  #f9d2df
+extreme light vivid red_orange, rgb=> [255, 217, 204] , hsl=> [15.0588, 100, 90] , hex=>  #ffd9cc
+extreme light vivid orange_yellow, rgb=> [255, 242, 204] , hsl=> [45.1765, 100, 90] , hex=>  #fff2cc
+extreme light vivid yellow_green, rgb=> [230, 255, 204] , hsl=> [89.8824, 100, 90] , hex=>  #e6ffcc
+extreme light vivid green_blue, rgb=> [204, 255, 255] , hsl=> [180.0, 100, 90] , hex=>  #ccffff
+extreme light vivid blue_purple, rgb=> [221, 204, 255] , hsl=> [260.0, 100, 90] , hex=>  #ddccff
+extreme light vivid purple_red, rgb=> [255, 204, 221] , hsl=> [340.0, 100, 90] , hex=>  #ffccdd
+extreme dark grayish reddish_orange, rgb=> [26, 26, 26] , hsl=> [22.5882, 0, 10] , hex=>  #1a1a1a
+extreme dark grayish orangish_yellow, rgb=> [26, 26, 26] , hsl=> [52.7059, 0, 10] , hex=>  #1a1a1a
+extreme dark grayish yellowish_green, rgb=> [26, 26, 26] , hsl=> [104.9412, 0, 10] , hex=>  #1a1a1a
+extreme dark grayish greenish_blue, rgb=> [26, 26, 26] , hsl=> [220.0, 0, 10] , hex=>  #1a1a1a
+extreme dark grayish bluish_purple, rgb=> [26, 26, 26] , hsl=> [276.0, 0, 10] , hex=>  #1a1a1a
+extreme dark grayish purplish_red, rgb=> [26, 26, 26] , hsl=> [351.4286, 0, 10] , hex=>  #1a1a1a
+extreme dark bit reddish_orange, rgb=> [32, 24, 19] , hsl=> [22.5882, 25, 10] , hex=>  #201813
+extreme dark bit orangish_yellow, rgb=> [32, 30, 19] , hsl=> [52.7059, 25, 10] , hex=>  #201e13
+extreme dark bit yellowish_green, rgb=> [22, 32, 19] , hsl=> [104.9412, 25, 10] , hex=>  #162013
+extreme dark bit greenish_blue, rgb=> [19, 23, 32] , hsl=> [220.0, 25, 10] , hex=>  #131720
+extreme dark bit bluish_purple, rgb=> [27, 19, 32] , hsl=> [276.0, 25, 10] , hex=>  #1b1320
+extreme dark bit purplish_red, rgb=> [32, 19, 21] , hsl=> [351.4286, 25, 10] , hex=>  #201315
+extreme dark moderate reddish_orange, rgb=> [38, 22, 13] , hsl=> [22.5882, 50, 10] , hex=>  #26160d
+extreme dark moderate orangish_yellow, rgb=> [38, 35, 13] , hsl=> [52.7059, 50, 10] , hex=>  #26230d
+extreme dark moderate yellowish_green, rgb=> [19, 38, 13] , hsl=> [104.9412, 50, 10] , hex=>  #13260d
+extreme dark moderate greenish_blue, rgb=> [13, 21, 38] , hsl=> [220.0, 50, 10] , hex=>  #0d1526
+extreme dark moderate bluish_purple, rgb=> [28, 13, 38] , hsl=> [276.0, 50, 10] , hex=>  #1c0d26
+extreme dark moderate purplish_red, rgb=> [38, 13, 16] , hsl=> [351.4286, 50, 10] , hex=>  #260d10
+extreme dark strong reddish_orange, rgb=> [45, 21, 6] , hsl=> [22.5882, 75, 10] , hex=>  #2d1506
+extreme dark strong orangish_yellow, rgb=> [45, 40, 6] , hsl=> [52.7059, 75, 10] , hex=>  #2d2806
+extreme dark strong yellowish_green, rgb=> [16, 45, 6] , hsl=> [104.9412, 75, 10] , hex=>  #102d06
+extreme dark strong greenish_blue, rgb=> [6, 19, 45] , hsl=> [220.0, 75, 10] , hex=>  #06132d
+extreme dark strong bluish_purple, rgb=> [29, 6, 45] , hsl=> [276.0, 75, 10] , hex=>  #1d062d
+extreme dark strong purplish_red, rgb=> [45, 6, 12] , hsl=> [351.4286, 75, 10] , hex=>  #2d060c
+extreme dark vivid reddish_orange, rgb=> [51, 19, 0] , hsl=> [22.5882, 100, 10] , hex=>  #331300
+extreme dark vivid orangish_yellow, rgb=> [51, 45, 0] , hsl=> [52.7059, 100, 10] , hex=>  #332d00
+extreme dark vivid yellowish_green, rgb=> [13, 51, 0] , hsl=> [104.9412, 100, 10] , hex=>  #0d3300
+extreme dark vivid greenish_blue, rgb=> [0, 17, 51] , hsl=> [220.0, 100, 10] , hex=>  #001133
+extreme dark vivid bluish_purple, rgb=> [31, 0, 51] , hsl=> [276.0, 100, 10] , hex=>  #1f0033
+extreme dark vivid purplish_red, rgb=> [51, 0, 7] , hsl=> [351.4286, 100, 10] , hex=>  #330007
+very dark grayish reddish_orange, rgb=> [64, 64, 64] , hsl=> [22.5882, 0, 25] , hex=>  #404040
+very dark grayish orangish_yellow, rgb=> [64, 64, 64] , hsl=> [52.7059, 0, 25] , hex=>  #404040
+very dark grayish yellowish_green, rgb=> [64, 64, 64] , hsl=> [104.9412, 0, 25] , hex=>  #404040
+very dark grayish greenish_blue, rgb=> [64, 64, 64] , hsl=> [220.0, 0, 25] , hex=>  #404040
+very dark grayish bluish_purple, rgb=> [64, 64, 64] , hsl=> [276.0, 0, 25] , hex=>  #404040
+very dark grayish purplish_red, rgb=> [64, 64, 64] , hsl=> [351.4286, 0, 25] , hex=>  #404040
+very dark bit reddish_orange, rgb=> [80, 60, 48] , hsl=> [22.5882, 25, 25] , hex=>  #503c30
+very dark bit orangish_yellow, rgb=> [80, 76, 48] , hsl=> [52.7059, 25, 25] , hex=>  #504c30
+very dark bit yellowish_green, rgb=> [56, 80, 48] , hsl=> [104.9412, 25, 25] , hex=>  #385030
+very dark bit greenish_blue, rgb=> [48, 58, 80] , hsl=> [220.0, 25, 25] , hex=>  #303a50
+very dark bit bluish_purple, rgb=> [67, 48, 80] , hsl=> [276.0, 25, 25] , hex=>  #433050
+very dark bit purplish_red, rgb=> [80, 48, 52] , hsl=> [351.4286, 25, 25] , hex=>  #503034
+very dark moderate reddish_orange, rgb=> [96, 56, 32] , hsl=> [22.5882, 50, 25] , hex=>  #603820
+very dark moderate orangish_yellow, rgb=> [96, 88, 32] , hsl=> [52.7059, 50, 25] , hex=>  #605820
+very dark moderate yellowish_green, rgb=> [48, 96, 32] , hsl=> [104.9412, 50, 25] , hex=>  #306020
+very dark moderate greenish_blue, rgb=> [32, 53, 96] , hsl=> [220.0, 50, 25] , hex=>  #203560
+very dark moderate bluish_purple, rgb=> [70, 32, 96] , hsl=> [276.0, 50, 25] , hex=>  #462060
+very dark moderate purplish_red, rgb=> [96, 32, 41] , hsl=> [351.4286, 50, 25] , hex=>  #602029
+very dark strong reddish_orange, rgb=> [112, 52, 16] , hsl=> [22.5882, 75, 25] , hex=>  #703410
+very dark strong orangish_yellow, rgb=> [112, 100, 16] , hsl=> [52.7059, 75, 25] , hex=>  #706410
+very dark strong yellowish_green, rgb=> [40, 112, 16] , hsl=> [104.9412, 75, 25] , hex=>  #287010
+very dark strong greenish_blue, rgb=> [16, 48, 112] , hsl=> [220.0, 75, 25] , hex=>  #103070
+very dark strong bluish_purple, rgb=> [73, 16, 112] , hsl=> [276.0, 75, 25] , hex=>  #491070
+very dark strong purplish_red, rgb=> [112, 16, 30] , hsl=> [351.4286, 75, 25] , hex=>  #70101e
+very dark vivid reddish_orange, rgb=> [128, 48, 0] , hsl=> [22.5882, 100, 25] , hex=>  #803000
+very dark vivid orangish_yellow, rgb=> [128, 112, 0] , hsl=> [52.7059, 100, 25] , hex=>  #807000
+very dark vivid yellowish_green, rgb=> [32, 128, 0] , hsl=> [104.9412, 100, 25] , hex=>  #208000
+very dark vivid greenish_blue, rgb=> [0, 43, 128] , hsl=> [220.0, 100, 25] , hex=>  #002b80
+very dark vivid bluish_purple, rgb=> [76, 0, 128] , hsl=> [276.0, 100, 25] , hex=>  #4c0080
+very dark vivid purplish_red, rgb=> [128, 0, 18] , hsl=> [351.4286, 100, 25] , hex=>  #800012
+dark grayish reddish_orange, rgb=> [96, 96, 96] , hsl=> [22.5882, 0, 37.5] , hex=>  #606060
+dark grayish orangish_yellow, rgb=> [96, 96, 96] , hsl=> [52.7059, 0, 37.5] , hex=>  #606060
+dark grayish yellowish_green, rgb=> [96, 96, 96] , hsl=> [104.9412, 0, 37.5] , hex=>  #606060
+dark grayish greenish_blue, rgb=> [96, 96, 96] , hsl=> [220.0, 0, 37.5] , hex=>  #606060
+dark grayish bluish_purple, rgb=> [96, 96, 96] , hsl=> [276.0, 0, 37.5] , hex=>  #606060
+dark grayish purplish_red, rgb=> [96, 96, 96] , hsl=> [351.4286, 0, 37.5] , hex=>  #606060
+dark bit reddish_orange, rgb=> [120, 90, 72] , hsl=> [22.5882, 25, 37.5] , hex=>  #785a48
+dark bit orangish_yellow, rgb=> [120, 114, 72] , hsl=> [52.7059, 25, 37.5] , hex=>  #787248
+dark bit yellowish_green, rgb=> [84, 120, 72] , hsl=> [104.9412, 25, 37.5] , hex=>  #547848
+dark bit greenish_blue, rgb=> [72, 88, 120] , hsl=> [220.0, 25, 37.5] , hex=>  #485878
+dark bit bluish_purple, rgb=> [100, 72, 120] , hsl=> [276.0, 25, 37.5] , hex=>  #644878
+dark bit purplish_red, rgb=> [120, 72, 79] , hsl=> [351.4286, 25, 37.5] , hex=>  #78484f
+dark moderate reddish_orange, rgb=> [143, 84, 48] , hsl=> [22.5882, 50, 37.5] , hex=>  #8f5430
+dark moderate orangish_yellow, rgb=> [143, 132, 48] , hsl=> [52.7059, 50, 37.5] , hex=>  #8f8430
+dark moderate yellowish_green, rgb=> [72, 143, 48] , hsl=> [104.9412, 50, 37.5] , hex=>  #488f30
+dark moderate greenish_blue, rgb=> [48, 80, 143] , hsl=> [220.0, 50, 37.5] , hex=>  #30508f
+dark moderate bluish_purple, rgb=> [105, 48, 143] , hsl=> [276.0, 50, 37.5] , hex=>  #69308f
+dark moderate purplish_red, rgb=> [143, 48, 61] , hsl=> [351.4286, 50, 37.5] , hex=>  #8f303d
+dark strong reddish_orange, rgb=> [167, 78, 24] , hsl=> [22.5882, 75, 37.5] , hex=>  #a74e18
+dark strong orangish_yellow, rgb=> [167, 150, 24] , hsl=> [52.7059, 75, 37.5] , hex=>  #a79618
+dark strong yellowish_green, rgb=> [60, 167, 24] , hsl=> [104.9412, 75, 37.5] , hex=>  #3ca718
+dark strong greenish_blue, rgb=> [24, 72, 167] , hsl=> [220.0, 75, 37.5] , hex=>  #1848a7
+dark strong bluish_purple, rgb=> [110, 24, 167] , hsl=> [276.0, 75, 37.5] , hex=>  #6e18a7
+dark strong purplish_red, rgb=> [167, 24, 44] , hsl=> [351.4286, 75, 37.5] , hex=>  #a7182c
+dark vivid reddish_orange, rgb=> [191, 72, 0] , hsl=> [22.5882, 100, 37.5] , hex=>  #bf4800
+dark vivid orangish_yellow, rgb=> [191, 168, 0] , hsl=> [52.7059, 100, 37.5] , hex=>  #bfa800
+dark vivid yellowish_green, rgb=> [48, 191, 0] , hsl=> [104.9412, 100, 37.5] , hex=>  #30bf00
+dark vivid greenish_blue, rgb=> [0, 64, 191] , hsl=> [220.0, 100, 37.5] , hex=>  #0040bf
+dark vivid bluish_purple, rgb=> [115, 0, 191] , hsl=> [276.0, 100, 37.5] , hex=>  #7300bf
+dark vivid purplish_red, rgb=> [191, 0, 27] , hsl=> [351.4286, 100, 37.5] , hex=>  #bf001b
+medium grayish reddish_orange, rgb=> [128, 128, 128] , hsl=> [22.5882, 0, 50] , hex=>  #808080
+medium grayish orangish_yellow, rgb=> [128, 128, 128] , hsl=> [52.7059, 0, 50] , hex=>  #808080
+medium grayish yellowish_green, rgb=> [128, 128, 128] , hsl=> [104.9412, 0, 50] , hex=>  #808080
+medium grayish greenish_blue, rgb=> [128, 128, 128] , hsl=> [220.0, 0, 50] , hex=>  #808080
+medium grayish bluish_purple, rgb=> [128, 128, 128] , hsl=> [276.0, 0, 50] , hex=>  #808080
+medium grayish purplish_red, rgb=> [128, 128, 128] , hsl=> [351.4286, 0, 50] , hex=>  #808080
+medium bit reddish_orange, rgb=> [159, 120, 96] , hsl=> [22.5882, 25, 50] , hex=>  #9f7860
+medium bit orangish_yellow, rgb=> [159, 152, 96] , hsl=> [52.7059, 25, 50] , hex=>  #9f9860
+medium bit yellowish_green, rgb=> [112, 159, 96] , hsl=> [104.9412, 25, 50] , hex=>  #709f60
+medium bit greenish_blue, rgb=> [96, 117, 159] , hsl=> [220.0, 25, 50] , hex=>  #60759f
+medium bit bluish_purple, rgb=> [134, 96, 159] , hsl=> [276.0, 25, 50] , hex=>  #86609f
+medium bit purplish_red, rgb=> [159, 96, 105] , hsl=> [351.4286, 25, 50] , hex=>  #9f6069
+medium moderate reddish_orange, rgb=> [191, 112, 64] , hsl=> [22.5882, 50, 50] , hex=>  #bf7040
+medium moderate orangish_yellow, rgb=> [191, 176, 64] , hsl=> [52.7059, 50, 50] , hex=>  #bfb040
+medium moderate yellowish_green, rgb=> [96, 191, 64] , hsl=> [104.9412, 50, 50] , hex=>  #60bf40
+medium moderate greenish_blue, rgb=> [64, 106, 191] , hsl=> [220.0, 50, 50] , hex=>  #406abf
+medium moderate bluish_purple, rgb=> [140, 64, 191] , hsl=> [276.0, 50, 50] , hex=>  #8c40bf
+medium moderate purplish_red, rgb=> [191, 64, 82] , hsl=> [351.4286, 50, 50] , hex=>  #bf4052
+medium strong reddish_orange, rgb=> [223, 104, 32] , hsl=> [22.5882, 75, 50] , hex=>  #df6820
+medium strong orangish_yellow, rgb=> [223, 200, 32] , hsl=> [52.7059, 75, 50] , hex=>  #dfc820
+medium strong yellowish_green, rgb=> [80, 223, 32] , hsl=> [104.9412, 75, 50] , hex=>  #50df20
+medium strong greenish_blue, rgb=> [32, 96, 223] , hsl=> [220.0, 75, 50] , hex=>  #2060df
+medium strong bluish_purple, rgb=> [147, 32, 223] , hsl=> [276.0, 75, 50] , hex=>  #9320df
+medium strong purplish_red, rgb=> [223, 32, 59] , hsl=> [351.4286, 75, 50] , hex=>  #df203b
+medium vivid reddish_orange, rgb=> [255, 96, 0] , hsl=> [22.5882, 100, 50] , hex=>  #ff6000
+medium vivid orangish_yellow, rgb=> [255, 224, 0] , hsl=> [52.7059, 100, 50] , hex=>  #ffe000
+medium vivid yellowish_green, rgb=> [64, 255, 0] , hsl=> [104.9412, 100, 50] , hex=>  #40ff00
+medium vivid greenish_blue, rgb=> [0, 85, 255] , hsl=> [220.0, 100, 50] , hex=>  #0055ff
+medium vivid bluish_purple, rgb=> [153, 0, 255] , hsl=> [276.0, 100, 50] , hex=>  #9900ff
+medium vivid purplish_red, rgb=> [255, 0, 36] , hsl=> [351.4286, 100, 50] , hex=>  #ff0024
+light grayish reddish_orange, rgb=> [159, 159, 159] , hsl=> [22.5882, 0, 62.5] , hex=>  #9f9f9f
+light grayish orangish_yellow, rgb=> [159, 159, 159] , hsl=> [52.7059, 0, 62.5] , hex=>  #9f9f9f
+light grayish yellowish_green, rgb=> [159, 159, 159] , hsl=> [104.9412, 0, 62.5] , hex=>  #9f9f9f
+light grayish greenish_blue, rgb=> [159, 159, 159] , hsl=> [220.0, 0, 62.5] , hex=>  #9f9f9f
+light grayish bluish_purple, rgb=> [159, 159, 159] , hsl=> [276.0, 0, 62.5] , hex=>  #9f9f9f
+light grayish purplish_red, rgb=> [159, 159, 159] , hsl=> [351.4286, 0, 62.5] , hex=>  #9f9f9f
+light bit reddish_orange, rgb=> [183, 153, 135] , hsl=> [22.5882, 25, 62.5] , hex=>  #b79987
+light bit orangish_yellow, rgb=> [183, 177, 135] , hsl=> [52.7059, 25, 62.5] , hex=>  #b7b187
+light bit yellowish_green, rgb=> [147, 183, 135] , hsl=> [104.9412, 25, 62.5] , hex=>  #93b787
+light bit greenish_blue, rgb=> [135, 151, 183] , hsl=> [220.0, 25, 62.5] , hex=>  #8797b7
+light bit bluish_purple, rgb=> [164, 135, 183] , hsl=> [276.0, 25, 62.5] , hex=>  #a487b7
+light bit purplish_red, rgb=> [183, 135, 142] , hsl=> [351.4286, 25, 62.5] , hex=>  #b7878e
+light moderate reddish_orange, rgb=> [207, 148, 112] , hsl=> [22.5882, 50, 62.5] , hex=>  #cf9470
+light moderate orangish_yellow, rgb=> [207, 196, 112] , hsl=> [52.7059, 50, 62.5] , hex=>  #cfc470
+light moderate yellowish_green, rgb=> [136, 207, 112] , hsl=> [104.9412, 50, 62.5] , hex=>  #88cf70
+light moderate greenish_blue, rgb=> [112, 143, 207] , hsl=> [220.0, 50, 62.5] , hex=>  #708fcf
+light moderate bluish_purple, rgb=> [169, 112, 207] , hsl=> [276.0, 50, 62.5] , hex=>  #a970cf
+light moderate purplish_red, rgb=> [207, 112, 125] , hsl=> [351.4286, 50, 62.5] , hex=>  #cf707d
+light strong reddish_orange, rgb=> [231, 142, 88] , hsl=> [22.5882, 75, 62.5] , hex=>  #e78e58
+light strong orangish_yellow, rgb=> [231, 214, 88] , hsl=> [52.7059, 75, 62.5] , hex=>  #e7d658
+light strong yellowish_green, rgb=> [124, 231, 88] , hsl=> [104.9412, 75, 62.5] , hex=>  #7ce758
+light strong greenish_blue, rgb=> [88, 135, 231] , hsl=> [220.0, 75, 62.5] , hex=>  #5887e7
+light strong bluish_purple, rgb=> [174, 88, 231] , hsl=> [276.0, 75, 62.5] , hex=>  #ae58e7
+light strong purplish_red, rgb=> [231, 88, 108] , hsl=> [351.4286, 75, 62.5] , hex=>  #e7586c
+light vivid reddish_orange, rgb=> [255, 136, 64] , hsl=> [22.5882, 100, 62.5] , hex=>  #ff8840
+light vivid orangish_yellow, rgb=> [255, 232, 64] , hsl=> [52.7059, 100, 62.5] , hex=>  #ffe840
+light vivid yellowish_green, rgb=> [112, 255, 64] , hsl=> [104.9412, 100, 62.5] , hex=>  #70ff40
+light vivid greenish_blue, rgb=> [64, 128, 255] , hsl=> [220.0, 100, 62.5] , hex=>  #4080ff
+light vivid bluish_purple, rgb=> [178, 64, 255] , hsl=> [276.0, 100, 62.5] , hex=>  #b240ff
+light vivid purplish_red, rgb=> [255, 64, 91] , hsl=> [351.4286, 100, 62.5] , hex=>  #ff405b
+very light grayish reddish_orange, rgb=> [191, 191, 191] , hsl=> [22.5882, 0, 75] , hex=>  #bfbfbf
+very light grayish orangish_yellow, rgb=> [191, 191, 191] , hsl=> [52.7059, 0, 75] , hex=>  #bfbfbf
+very light grayish yellowish_green, rgb=> [191, 191, 191] , hsl=> [104.9412, 0, 75] , hex=>  #bfbfbf
+very light grayish greenish_blue, rgb=> [191, 191, 191] , hsl=> [220.0, 0, 75] , hex=>  #bfbfbf
+very light grayish bluish_purple, rgb=> [191, 191, 191] , hsl=> [276.0, 0, 75] , hex=>  #bfbfbf
+very light grayish purplish_red, rgb=> [191, 191, 191] , hsl=> [351.4286, 0, 75] , hex=>  #bfbfbf
+very light bit reddish_orange, rgb=> [207, 187, 175] , hsl=> [22.5882, 25, 75] , hex=>  #cfbbaf
+very light bit orangish_yellow, rgb=> [207, 203, 175] , hsl=> [52.7059, 25, 75] , hex=>  #cfcbaf
+very light bit yellowish_green, rgb=> [183, 207, 175] , hsl=> [104.9412, 25, 75] , hex=>  #b7cfaf
+very light bit greenish_blue, rgb=> [175, 186, 207] , hsl=> [220.0, 25, 75] , hex=>  #afbacf
+very light bit bluish_purple, rgb=> [194, 175, 207] , hsl=> [276.0, 25, 75] , hex=>  #c2afcf
+very light bit purplish_red, rgb=> [207, 175, 180] , hsl=> [351.4286, 25, 75] , hex=>  #cfafb4
+very light moderate reddish_orange, rgb=> [223, 183, 159] , hsl=> [22.5882, 50, 75] , hex=>  #dfb79f
+very light moderate orangish_yellow, rgb=> [223, 215, 159] , hsl=> [52.7059, 50, 75] , hex=>  #dfd79f
+very light moderate yellowish_green, rgb=> [175, 223, 159] , hsl=> [104.9412, 50, 75] , hex=>  #afdf9f
+very light moderate greenish_blue, rgb=> [159, 181, 223] , hsl=> [220.0, 50, 75] , hex=>  #9fb5df
+very light moderate bluish_purple, rgb=> [198, 159, 223] , hsl=> [276.0, 50, 75] , hex=>  #c69fdf
+very light moderate purplish_red, rgb=> [223, 159, 168] , hsl=> [351.4286, 50, 75] , hex=>  #df9fa8
+very light strong reddish_orange, rgb=> [239, 179, 143] , hsl=> [22.5882, 75, 75] , hex=>  #efb38f
+very light strong orangish_yellow, rgb=> [239, 227, 143] , hsl=> [52.7059, 75, 75] , hex=>  #efe38f
+very light strong yellowish_green, rgb=> [167, 239, 143] , hsl=> [104.9412, 75, 75] , hex=>  #a7ef8f
+very light strong greenish_blue, rgb=> [143, 175, 239] , hsl=> [220.0, 75, 75] , hex=>  #8fafef
+very light strong bluish_purple, rgb=> [201, 143, 239] , hsl=> [276.0, 75, 75] , hex=>  #c98fef
+very light strong purplish_red, rgb=> [239, 143, 157] , hsl=> [351.4286, 75, 75] , hex=>  #ef8f9d
+very light vivid reddish_orange, rgb=> [255, 175, 128] , hsl=> [22.5882, 100, 75] , hex=>  #ffaf80
+very light vivid orangish_yellow, rgb=> [255, 240, 128] , hsl=> [52.7059, 100, 75] , hex=>  #fff080
+very light vivid yellowish_green, rgb=> [159, 255, 128] , hsl=> [104.9412, 100, 75] , hex=>  #9fff80
+very light vivid greenish_blue, rgb=> [128, 170, 255] , hsl=> [220.0, 100, 75] , hex=>  #80aaff
+very light vivid bluish_purple, rgb=> [204, 128, 255] , hsl=> [276.0, 100, 75] , hex=>  #cc80ff
+very light vivid purplish_red, rgb=> [255, 128, 146] , hsl=> [351.4286, 100, 75] , hex=>  #ff8092
+extreme light grayish reddish_orange, rgb=> [230, 230, 230] , hsl=> [22.5882, 0, 90] , hex=>  #e6e6e6
+extreme light grayish orangish_yellow, rgb=> [230, 230, 230] , hsl=> [52.7059, 0, 90] , hex=>  #e6e6e6
+extreme light grayish yellowish_green, rgb=> [230, 230, 230] , hsl=> [104.9412, 0, 90] , hex=>  #e6e6e6
+extreme light grayish greenish_blue, rgb=> [230, 230, 230] , hsl=> [220.0, 0, 90] , hex=>  #e6e6e6
+extreme light grayish bluish_purple, rgb=> [230, 230, 230] , hsl=> [276.0, 0, 90] , hex=>  #e6e6e6
+extreme light grayish purplish_red, rgb=> [230, 230, 230] , hsl=> [351.4286, 0, 90] , hex=>  #e6e6e6
+extreme light bit reddish_orange, rgb=> [236, 228, 223] , hsl=> [22.5882, 25, 90] , hex=>  #ece4df
+extreme light bit orangish_yellow, rgb=> [236, 234, 223] , hsl=> [52.7059, 25, 90] , hex=>  #eceadf
+extreme light bit yellowish_green, rgb=> [226, 236, 223] , hsl=> [104.9412, 25, 90] , hex=>  #e2ecdf
+extreme light bit greenish_blue, rgb=> [223, 227, 236] , hsl=> [220.0, 25, 90] , hex=>  #dfe3ec
+extreme light bit bluish_purple, rgb=> [231, 223, 236] , hsl=> [276.0, 25, 90] , hex=>  #e7dfec
+extreme light bit purplish_red, rgb=> [236, 223, 225] , hsl=> [351.4286, 25, 90] , hex=>  #ecdfe1
+extreme light moderate reddish_orange, rgb=> [242, 226, 217] , hsl=> [22.5882, 50, 90] , hex=>  #f2e2d9
+extreme light moderate orangish_yellow, rgb=> [242, 239, 217] , hsl=> [52.7059, 50, 90] , hex=>  #f2efd9
+extreme light moderate yellowish_green, rgb=> [223, 242, 217] , hsl=> [104.9412, 50, 90] , hex=>  #dff2d9
+extreme light moderate greenish_blue, rgb=> [217, 225, 242] , hsl=> [220.0, 50, 90] , hex=>  #d9e1f2
+extreme light moderate bluish_purple, rgb=> [232, 217, 242] , hsl=> [276.0, 50, 90] , hex=>  #e8d9f2
+extreme light moderate purplish_red, rgb=> [242, 217, 220] , hsl=> [351.4286, 50, 90] , hex=>  #f2d9dc
+extreme light strong reddish_orange, rgb=> [249, 225, 210] , hsl=> [22.5882, 75, 90] , hex=>  #f9e1d2
+extreme light strong orangish_yellow, rgb=> [249, 244, 210] , hsl=> [52.7059, 75, 90] , hex=>  #f9f4d2
+extreme light strong yellowish_green, rgb=> [220, 249, 210] , hsl=> [104.9412, 75, 90] , hex=>  #dcf9d2
+extreme light strong greenish_blue, rgb=> [210, 223, 249] , hsl=> [220.0, 75, 90] , hex=>  #d2dff9
+extreme light strong bluish_purple, rgb=> [233, 210, 249] , hsl=> [276.0, 75, 90] , hex=>  #e9d2f9
+extreme light strong purplish_red, rgb=> [249, 210, 216] , hsl=> [351.4286, 75, 90] , hex=>  #f9d2d8
+extreme light vivid reddish_orange, rgb=> [255, 223, 204] , hsl=> [22.5882, 100, 90] , hex=>  #ffdfcc
+extreme light vivid orangish_yellow, rgb=> [255, 249, 204] , hsl=> [52.7059, 100, 90] , hex=>  #fff9cc
+extreme light vivid yellowish_green, rgb=> [217, 255, 204] , hsl=> [104.9412, 100, 90] , hex=>  #d9ffcc
+extreme light vivid greenish_blue, rgb=> [204, 221, 255] , hsl=> [220.0, 100, 90] , hex=>  #ccddff
+extreme light vivid bluish_purple, rgb=> [235, 204, 255] , hsl=> [276.0, 100, 90] , hex=>  #ebccff
+extreme light vivid purplish_red, rgb=> [255, 204, 211] , hsl=> [351.4286, 100, 90] , hex=>  #ffccd3
+extreme dark grayish orangish_red, rgb=> [26, 26, 26] , hsl=> [8.6099, 0, 10] , hex=>  #1a1a1a
+extreme dark grayish yellowish_orange, rgb=> [26, 26, 26] , hsl=> [37.6471, 0, 10] , hex=>  #1a1a1a
+extreme dark grayish greenish_yellow, rgb=> [26, 26, 26] , hsl=> [74.8235, 0, 10] , hex=>  #1a1a1a
+extreme dark grayish bluish_green, rgb=> [26, 26, 26] , hsl=> [140.0, 0, 10] , hex=>  #1a1a1a
+extreme dark grayish purplish_blue, rgb=> [26, 26, 26] , hsl=> [248.5714, 0, 10] , hex=>  #1a1a1a
+extreme dark grayish reddish_purple, rgb=> [26, 26, 26] , hsl=> [324.0, 0, 10] , hex=>  #1a1a1a
+extreme dark bit orangish_red, rgb=> [32, 21, 19] , hsl=> [8.6099, 25, 10] , hex=>  #201513
+extreme dark bit yellowish_orange, rgb=> [32, 27, 19] , hsl=> [37.6471, 25, 10] , hex=>  #201b13
+extreme dark bit greenish_yellow, rgb=> [29, 32, 19] , hsl=> [74.8235, 25, 10] , hex=>  #1d2013
+extreme dark bit bluish_green, rgb=> [19, 32, 23] , hsl=> [140.0, 25, 10] , hex=>  #132017
+extreme dark bit purplish_blue, rgb=> [21, 19, 32] , hsl=> [248.5714, 25, 10] , hex=>  #151320
+extreme dark bit reddish_purple, rgb=> [32, 19, 27] , hsl=> [324.0, 25, 10] , hex=>  #20131b
+extreme dark moderate orangish_red, rgb=> [38, 16, 13] , hsl=> [8.6099, 50, 10] , hex=>  #26100d
+extreme dark moderate yellowish_orange, rgb=> [38, 29, 13] , hsl=> [37.6471, 50, 10] , hex=>  #261d0d
+extreme dark moderate greenish_yellow, rgb=> [32, 38, 13] , hsl=> [74.8235, 50, 10] , hex=>  #20260d
+extreme dark moderate bluish_green, rgb=> [13, 38, 21] , hsl=> [140.0, 50, 10] , hex=>  #0d2615
+extreme dark moderate purplish_blue, rgb=> [16, 13, 38] , hsl=> [248.5714, 50, 10] , hex=>  #100d26
+extreme dark moderate reddish_purple, rgb=> [38, 13, 28] , hsl=> [324.0, 50, 10] , hex=>  #260d1c
+extreme dark strong orangish_red, rgb=> [45, 12, 6] , hsl=> [8.6099, 75, 10] , hex=>  #2d0c06
+extreme dark strong yellowish_orange, rgb=> [45, 30, 6] , hsl=> [37.6471, 75, 10] , hex=>  #2d1e06
+extreme dark strong greenish_yellow, rgb=> [35, 45, 6] , hsl=> [74.8235, 75, 10] , hex=>  #232d06
+extreme dark strong bluish_green, rgb=> [6, 45, 19] , hsl=> [140.0, 75, 10] , hex=>  #062d13
+extreme dark strong purplish_blue, rgb=> [12, 6, 45] , hsl=> [248.5714, 75, 10] , hex=>  #0c062d
+extreme dark strong reddish_purple, rgb=> [45, 6, 29] , hsl=> [324.0, 75, 10] , hex=>  #2d061d
+extreme dark vivid orangish_red, rgb=> [51, 7, 0] , hsl=> [8.6099, 100, 10] , hex=>  #330700
+extreme dark vivid yellowish_orange, rgb=> [51, 32, 0] , hsl=> [37.6471, 100, 10] , hex=>  #332000
+extreme dark vivid greenish_yellow, rgb=> [38, 51, 0] , hsl=> [74.8235, 100, 10] , hex=>  #263300
+extreme dark vivid bluish_green, rgb=> [0, 51, 17] , hsl=> [140.0, 100, 10] , hex=>  #003311
+extreme dark vivid purplish_blue, rgb=> [7, 0, 51] , hsl=> [248.5714, 100, 10] , hex=>  #070033
+extreme dark vivid reddish_purple, rgb=> [51, 0, 31] , hsl=> [324.0, 100, 10] , hex=>  #33001f
+very dark grayish orangish_red, rgb=> [64, 64, 64] , hsl=> [8.6099, 0, 25] , hex=>  #404040
+very dark grayish yellowish_orange, rgb=> [64, 64, 64] , hsl=> [37.6471, 0, 25] , hex=>  #404040
+very dark grayish greenish_yellow, rgb=> [64, 64, 64] , hsl=> [74.8235, 0, 25] , hex=>  #404040
+very dark grayish bluish_green, rgb=> [64, 64, 64] , hsl=> [140.0, 0, 25] , hex=>  #404040
+very dark grayish purplish_blue, rgb=> [64, 64, 64] , hsl=> [248.5714, 0, 25] , hex=>  #404040
+very dark grayish reddish_purple, rgb=> [64, 64, 64] , hsl=> [324.0, 0, 25] , hex=>  #404040
+very dark bit orangish_red, rgb=> [80, 52, 48] , hsl=> [8.6099, 25, 25] , hex=>  #503430
+very dark bit yellowish_orange, rgb=> [80, 68, 48] , hsl=> [37.6471, 25, 25] , hex=>  #504430
+very dark bit greenish_yellow, rgb=> [72, 80, 48] , hsl=> [74.8235, 25, 25] , hex=>  #485030
+very dark bit bluish_green, rgb=> [48, 80, 58] , hsl=> [140.0, 25, 25] , hex=>  #30503a
+very dark bit purplish_blue, rgb=> [52, 48, 80] , hsl=> [248.5714, 25, 25] , hex=>  #343050
+very dark bit reddish_purple, rgb=> [80, 48, 67] , hsl=> [324.0, 25, 25] , hex=>  #503043
+very dark moderate orangish_red, rgb=> [96, 41, 32] , hsl=> [8.6099, 50, 25] , hex=>  #602920
+very dark moderate yellowish_orange, rgb=> [96, 72, 32] , hsl=> [37.6471, 50, 25] , hex=>  #604820
+very dark moderate greenish_yellow, rgb=> [80, 96, 32] , hsl=> [74.8235, 50, 25] , hex=>  #506020
+very dark moderate bluish_green, rgb=> [32, 96, 53] , hsl=> [140.0, 50, 25] , hex=>  #206035
+very dark moderate purplish_blue, rgb=> [41, 32, 96] , hsl=> [248.5714, 50, 25] , hex=>  #292060
+very dark moderate reddish_purple, rgb=> [96, 32, 70] , hsl=> [324.0, 50, 25] , hex=>  #602046
+very dark strong orangish_red, rgb=> [112, 30, 16] , hsl=> [8.6099, 75, 25] , hex=>  #701e10
+very dark strong yellowish_orange, rgb=> [112, 76, 16] , hsl=> [37.6471, 75, 25] , hex=>  #704c10
+very dark strong greenish_yellow, rgb=> [88, 112, 16] , hsl=> [74.8235, 75, 25] , hex=>  #587010
+very dark strong bluish_green, rgb=> [16, 112, 48] , hsl=> [140.0, 75, 25] , hex=>  #107030
+very dark strong purplish_blue, rgb=> [30, 16, 112] , hsl=> [248.5714, 75, 25] , hex=>  #1e1070
+very dark strong reddish_purple, rgb=> [112, 16, 73] , hsl=> [324.0, 75, 25] , hex=>  #701049
+very dark vivid orangish_red, rgb=> [128, 18, 0] , hsl=> [8.6099, 100, 25] , hex=>  #801200
+very dark vivid yellowish_orange, rgb=> [128, 80, 0] , hsl=> [37.6471, 100, 25] , hex=>  #805000
+very dark vivid greenish_yellow, rgb=> [96, 128, 0] , hsl=> [74.8235, 100, 25] , hex=>  #608000
+very dark vivid bluish_green, rgb=> [0, 128, 43] , hsl=> [140.0, 100, 25] , hex=>  #00802b
+very dark vivid purplish_blue, rgb=> [18, 0, 128] , hsl=> [248.5714, 100, 25] , hex=>  #120080
+very dark vivid reddish_purple, rgb=> [128, 0, 76] , hsl=> [324.0, 100, 25] , hex=>  #80004c
+dark grayish orangish_red, rgb=> [96, 96, 96] , hsl=> [8.6099, 0, 37.5] , hex=>  #606060
+dark grayish yellowish_orange, rgb=> [96, 96, 96] , hsl=> [37.6471, 0, 37.5] , hex=>  #606060
+dark grayish greenish_yellow, rgb=> [96, 96, 96] , hsl=> [74.8235, 0, 37.5] , hex=>  #606060
+dark grayish bluish_green, rgb=> [96, 96, 96] , hsl=> [140.0, 0, 37.5] , hex=>  #606060
+dark grayish purplish_blue, rgb=> [96, 96, 96] , hsl=> [248.5714, 0, 37.5] , hex=>  #606060
+dark grayish reddish_purple, rgb=> [96, 96, 96] , hsl=> [324.0, 0, 37.5] , hex=>  #606060
+dark bit orangish_red, rgb=> [120, 79, 72] , hsl=> [8.6099, 25, 37.5] , hex=>  #784f48
+dark bit yellowish_orange, rgb=> [120, 102, 72] , hsl=> [37.6471, 25, 37.5] , hex=>  #786648
+dark bit greenish_yellow, rgb=> [108, 120, 72] , hsl=> [74.8235, 25, 37.5] , hex=>  #6c7848
+dark bit bluish_green, rgb=> [72, 120, 88] , hsl=> [140.0, 25, 37.5] , hex=>  #487858
+dark bit purplish_blue, rgb=> [79, 72, 120] , hsl=> [248.5714, 25, 37.5] , hex=>  #4f4878
+dark bit reddish_purple, rgb=> [120, 72, 100] , hsl=> [324.0, 25, 37.5] , hex=>  #784864
+dark moderate orangish_red, rgb=> [143, 62, 48] , hsl=> [8.6099, 50, 37.5] , hex=>  #8f3e30
+dark moderate yellowish_orange, rgb=> [143, 108, 48] , hsl=> [37.6471, 50, 37.5] , hex=>  #8f6c30
+dark moderate greenish_yellow, rgb=> [120, 143, 48] , hsl=> [74.8235, 50, 37.5] , hex=>  #788f30
+dark moderate bluish_green, rgb=> [48, 143, 80] , hsl=> [140.0, 50, 37.5] , hex=>  #308f50
+dark moderate purplish_blue, rgb=> [61, 48, 143] , hsl=> [248.5714, 50, 37.5] , hex=>  #3d308f
+dark moderate reddish_purple, rgb=> [143, 48, 105] , hsl=> [324.0, 50, 37.5] , hex=>  #8f3069
+dark strong orangish_red, rgb=> [167, 44, 24] , hsl=> [8.6099, 75, 37.5] , hex=>  #a72c18
+dark strong yellowish_orange, rgb=> [167, 114, 24] , hsl=> [37.6471, 75, 37.5] , hex=>  #a77218
+dark strong greenish_yellow, rgb=> [132, 167, 24] , hsl=> [74.8235, 75, 37.5] , hex=>  #84a718
+dark strong bluish_green, rgb=> [24, 167, 72] , hsl=> [140.0, 75, 37.5] , hex=>  #18a748
+dark strong purplish_blue, rgb=> [44, 24, 167] , hsl=> [248.5714, 75, 37.5] , hex=>  #2c18a7
+dark strong reddish_purple, rgb=> [167, 24, 110] , hsl=> [324.0, 75, 37.5] , hex=>  #a7186e
+dark vivid orangish_red, rgb=> [191, 27, 0] , hsl=> [8.6099, 100, 37.5] , hex=>  #bf1b00
+dark vivid yellowish_orange, rgb=> [191, 120, 0] , hsl=> [37.6471, 100, 37.5] , hex=>  #bf7800
+dark vivid greenish_yellow, rgb=> [144, 191, 0] , hsl=> [74.8235, 100, 37.5] , hex=>  #90bf00
+dark vivid bluish_green, rgb=> [0, 191, 64] , hsl=> [140.0, 100, 37.5] , hex=>  #00bf40
+dark vivid purplish_blue, rgb=> [27, 0, 191] , hsl=> [248.5714, 100, 37.5] , hex=>  #1b00bf
+dark vivid reddish_purple, rgb=> [191, 0, 115] , hsl=> [324.0, 100, 37.5] , hex=>  #bf0073
+medium grayish orangish_red, rgb=> [128, 128, 128] , hsl=> [8.6099, 0, 50] , hex=>  #808080
+medium grayish yellowish_orange, rgb=> [128, 128, 128] , hsl=> [37.6471, 0, 50] , hex=>  #808080
+medium grayish greenish_yellow, rgb=> [128, 128, 128] , hsl=> [74.8235, 0, 50] , hex=>  #808080
+medium grayish bluish_green, rgb=> [128, 128, 128] , hsl=> [140.0, 0, 50] , hex=>  #808080
+medium grayish purplish_blue, rgb=> [128, 128, 128] , hsl=> [248.5714, 0, 50] , hex=>  #808080
+medium grayish reddish_purple, rgb=> [128, 128, 128] , hsl=> [324.0, 0, 50] , hex=>  #808080
+medium bit orangish_red, rgb=> [159, 105, 96] , hsl=> [8.6099, 25, 50] , hex=>  #9f6960
+medium bit yellowish_orange, rgb=> [159, 136, 96] , hsl=> [37.6471, 25, 50] , hex=>  #9f8860
+medium bit greenish_yellow, rgb=> [144, 159, 96] , hsl=> [74.8235, 25, 50] , hex=>  #909f60
+medium bit bluish_green, rgb=> [96, 159, 117] , hsl=> [140.0, 25, 50] , hex=>  #609f75
+medium bit purplish_blue, rgb=> [105, 96, 159] , hsl=> [248.5714, 25, 50] , hex=>  #69609f
+medium bit reddish_purple, rgb=> [159, 96, 134] , hsl=> [324.0, 25, 50] , hex=>  #9f6086
+medium moderate orangish_red, rgb=> [191, 82, 64] , hsl=> [8.6099, 50, 50] , hex=>  #bf5240
+medium moderate yellowish_orange, rgb=> [191, 144, 64] , hsl=> [37.6471, 50, 50] , hex=>  #bf9040
+medium moderate greenish_yellow, rgb=> [160, 191, 64] , hsl=> [74.8235, 50, 50] , hex=>  #a0bf40
+medium moderate bluish_green, rgb=> [64, 191, 106] , hsl=> [140.0, 50, 50] , hex=>  #40bf6a
+medium moderate purplish_blue, rgb=> [82, 64, 191] , hsl=> [248.5714, 50, 50] , hex=>  #5240bf
+medium moderate reddish_purple, rgb=> [191, 64, 140] , hsl=> [324.0, 50, 50] , hex=>  #bf408c
+medium strong orangish_red, rgb=> [223, 59, 32] , hsl=> [8.6099, 75, 50] , hex=>  #df3b20
+medium strong yellowish_orange, rgb=> [223, 152, 32] , hsl=> [37.6471, 75, 50] , hex=>  #df9820
+medium strong greenish_yellow, rgb=> [176, 223, 32] , hsl=> [74.8235, 75, 50] , hex=>  #b0df20
+medium strong bluish_green, rgb=> [32, 223, 96] , hsl=> [140.0, 75, 50] , hex=>  #20df60
+medium strong purplish_blue, rgb=> [59, 32, 223] , hsl=> [248.5714, 75, 50] , hex=>  #3b20df
+medium strong reddish_purple, rgb=> [223, 32, 147] , hsl=> [324.0, 75, 50] , hex=>  #df2093
+medium vivid orangish_red, rgb=> [255, 37, 0] , hsl=> [8.6099, 100, 50] , hex=>  #ff2500
+medium vivid yellowish_orange, rgb=> [255, 160, 0] , hsl=> [37.6471, 100, 50] , hex=>  #ffa000
+medium vivid greenish_yellow, rgb=> [192, 255, 0] , hsl=> [74.8235, 100, 50] , hex=>  #c0ff00
+medium vivid bluish_green, rgb=> [0, 255, 85] , hsl=> [140.0, 100, 50] , hex=>  #00ff55
+medium vivid purplish_blue, rgb=> [36, 0, 255] , hsl=> [248.5714, 100, 50] , hex=>  #2400ff
+medium vivid reddish_purple, rgb=> [255, 0, 153] , hsl=> [324.0, 100, 50] , hex=>  #ff0099
+light grayish orangish_red, rgb=> [159, 159, 159] , hsl=> [8.6099, 0, 62.5] , hex=>  #9f9f9f
+light grayish yellowish_orange, rgb=> [159, 159, 159] , hsl=> [37.6471, 0, 62.5] , hex=>  #9f9f9f
+light grayish greenish_yellow, rgb=> [159, 159, 159] , hsl=> [74.8235, 0, 62.5] , hex=>  #9f9f9f
+light grayish bluish_green, rgb=> [159, 159, 159] , hsl=> [140.0, 0, 62.5] , hex=>  #9f9f9f
+light grayish purplish_blue, rgb=> [159, 159, 159] , hsl=> [248.5714, 0, 62.5] , hex=>  #9f9f9f
+light grayish reddish_purple, rgb=> [159, 159, 159] , hsl=> [324.0, 0, 62.5] , hex=>  #9f9f9f
+light bit orangish_red, rgb=> [183, 142, 135] , hsl=> [8.6099, 25, 62.5] , hex=>  #b78e87
+light bit yellowish_orange, rgb=> [183, 165, 135] , hsl=> [37.6471, 25, 62.5] , hex=>  #b7a587
+light bit greenish_yellow, rgb=> [171, 183, 135] , hsl=> [74.8235, 25, 62.5] , hex=>  #abb787
+light bit bluish_green, rgb=> [135, 183, 151] , hsl=> [140.0, 25, 62.5] , hex=>  #87b797
+light bit purplish_blue, rgb=> [142, 135, 183] , hsl=> [248.5714, 25, 62.5] , hex=>  #8e87b7
+light bit reddish_purple, rgb=> [183, 135, 164] , hsl=> [324.0, 25, 62.5] , hex=>  #b787a4
+light moderate orangish_red, rgb=> [207, 125, 112] , hsl=> [8.6099, 50, 62.5] , hex=>  #cf7d70
+light moderate yellowish_orange, rgb=> [207, 172, 112] , hsl=> [37.6471, 50, 62.5] , hex=>  #cfac70
+light moderate greenish_yellow, rgb=> [184, 207, 112] , hsl=> [74.8235, 50, 62.5] , hex=>  #b8cf70
+light moderate bluish_green, rgb=> [112, 207, 143] , hsl=> [140.0, 50, 62.5] , hex=>  #70cf8f
+light moderate purplish_blue, rgb=> [125, 112, 207] , hsl=> [248.5714, 50, 62.5] , hex=>  #7d70cf
+light moderate reddish_purple, rgb=> [207, 112, 169] , hsl=> [324.0, 50, 62.5] , hex=>  #cf70a9
+light strong orangish_red, rgb=> [231, 108, 88] , hsl=> [8.6099, 75, 62.5] , hex=>  #e76c58
+light strong yellowish_orange, rgb=> [231, 178, 88] , hsl=> [37.6471, 75, 62.5] , hex=>  #e7b258
+light strong greenish_yellow, rgb=> [196, 231, 88] , hsl=> [74.8235, 75, 62.5] , hex=>  #c4e758
+light strong bluish_green, rgb=> [88, 231, 135] , hsl=> [140.0, 75, 62.5] , hex=>  #58e787
+light strong purplish_blue, rgb=> [108, 88, 231] , hsl=> [248.5714, 75, 62.5] , hex=>  #6c58e7
+light strong reddish_purple, rgb=> [231, 88, 174] , hsl=> [324.0, 75, 62.5] , hex=>  #e758ae
+light vivid orangish_red, rgb=> [255, 91, 64] , hsl=> [8.6099, 100, 62.5] , hex=>  #ff5b40
+light vivid yellowish_orange, rgb=> [255, 184, 64] , hsl=> [37.6471, 100, 62.5] , hex=>  #ffb840
+light vivid greenish_yellow, rgb=> [208, 255, 64] , hsl=> [74.8235, 100, 62.5] , hex=>  #d0ff40
+light vivid bluish_green, rgb=> [64, 255, 128] , hsl=> [140.0, 100, 62.5] , hex=>  #40ff80
+light vivid purplish_blue, rgb=> [91, 64, 255] , hsl=> [248.5714, 100, 62.5] , hex=>  #5b40ff
+light vivid reddish_purple, rgb=> [255, 64, 178] , hsl=> [324.0, 100, 62.5] , hex=>  #ff40b2
+very light grayish orangish_red, rgb=> [191, 191, 191] , hsl=> [8.6099, 0, 75] , hex=>  #bfbfbf
+very light grayish yellowish_orange, rgb=> [191, 191, 191] , hsl=> [37.6471, 0, 75] , hex=>  #bfbfbf
+very light grayish greenish_yellow, rgb=> [191, 191, 191] , hsl=> [74.8235, 0, 75] , hex=>  #bfbfbf
+very light grayish bluish_green, rgb=> [191, 191, 191] , hsl=> [140.0, 0, 75] , hex=>  #bfbfbf
+very light grayish purplish_blue, rgb=> [191, 191, 191] , hsl=> [248.5714, 0, 75] , hex=>  #bfbfbf
+very light grayish reddish_purple, rgb=> [191, 191, 191] , hsl=> [324.0, 0, 75] , hex=>  #bfbfbf
+very light bit orangish_red, rgb=> [207, 180, 175] , hsl=> [8.6099, 25, 75] , hex=>  #cfb4af
+very light bit yellowish_orange, rgb=> [207, 195, 175] , hsl=> [37.6471, 25, 75] , hex=>  #cfc3af
+very light bit greenish_yellow, rgb=> [199, 207, 175] , hsl=> [74.8235, 25, 75] , hex=>  #c7cfaf
+very light bit bluish_green, rgb=> [175, 207, 186] , hsl=> [140.0, 25, 75] , hex=>  #afcfba
+very light bit purplish_blue, rgb=> [180, 175, 207] , hsl=> [248.5714, 25, 75] , hex=>  #b4afcf
+very light bit reddish_purple, rgb=> [207, 175, 194] , hsl=> [324.0, 25, 75] , hex=>  #cfafc2
+very light moderate orangish_red, rgb=> [223, 169, 159] , hsl=> [8.6099, 50, 75] , hex=>  #dfa99f
+very light moderate yellowish_orange, rgb=> [223, 199, 159] , hsl=> [37.6471, 50, 75] , hex=>  #dfc79f
+very light moderate greenish_yellow, rgb=> [207, 223, 159] , hsl=> [74.8235, 50, 75] , hex=>  #cfdf9f
+very light moderate bluish_green, rgb=> [159, 223, 181] , hsl=> [140.0, 50, 75] , hex=>  #9fdfb5
+very light moderate purplish_blue, rgb=> [168, 159, 223] , hsl=> [248.5714, 50, 75] , hex=>  #a89fdf
+very light moderate reddish_purple, rgb=> [223, 159, 198] , hsl=> [324.0, 50, 75] , hex=>  #df9fc6
+very light strong orangish_red, rgb=> [239, 157, 143] , hsl=> [8.6099, 75, 75] , hex=>  #ef9d8f
+very light strong yellowish_orange, rgb=> [239, 203, 143] , hsl=> [37.6471, 75, 75] , hex=>  #efcb8f
+very light strong greenish_yellow, rgb=> [215, 239, 143] , hsl=> [74.8235, 75, 75] , hex=>  #d7ef8f
+very light strong bluish_green, rgb=> [143, 239, 175] , hsl=> [140.0, 75, 75] , hex=>  #8fefaf
+very light strong purplish_blue, rgb=> [157, 143, 239] , hsl=> [248.5714, 75, 75] , hex=>  #9d8fef
+very light strong reddish_purple, rgb=> [239, 143, 201] , hsl=> [324.0, 75, 75] , hex=>  #ef8fc9
+very light vivid orangish_red, rgb=> [255, 146, 128] , hsl=> [8.6099, 100, 75] , hex=>  #ff9280
+very light vivid yellowish_orange, rgb=> [255, 208, 128] , hsl=> [37.6471, 100, 75] , hex=>  #ffd080
+very light vivid greenish_yellow, rgb=> [224, 255, 128] , hsl=> [74.8235, 100, 75] , hex=>  #e0ff80
+very light vivid bluish_green, rgb=> [128, 255, 170] , hsl=> [140.0, 100, 75] , hex=>  #80ffaa
+very light vivid purplish_blue, rgb=> [146, 128, 255] , hsl=> [248.5714, 100, 75] , hex=>  #9280ff
+very light vivid reddish_purple, rgb=> [255, 128, 204] , hsl=> [324.0, 100, 75] , hex=>  #ff80cc
+extreme light grayish orangish_red, rgb=> [230, 230, 230] , hsl=> [8.6099, 0, 90] , hex=>  #e6e6e6
+extreme light grayish yellowish_orange, rgb=> [230, 230, 230] , hsl=> [37.6471, 0, 90] , hex=>  #e6e6e6
+extreme light grayish greenish_yellow, rgb=> [230, 230, 230] , hsl=> [74.8235, 0, 90] , hex=>  #e6e6e6
+extreme light grayish bluish_green, rgb=> [230, 230, 230] , hsl=> [140.0, 0, 90] , hex=>  #e6e6e6
+extreme light grayish purplish_blue, rgb=> [230, 230, 230] , hsl=> [248.5714, 0, 90] , hex=>  #e6e6e6
+extreme light grayish reddish_purple, rgb=> [230, 230, 230] , hsl=> [324.0, 0, 90] , hex=>  #e6e6e6
+extreme light bit orangish_red, rgb=> [236, 225, 223] , hsl=> [8.6099, 25, 90] , hex=>  #ece1df
+extreme light bit yellowish_orange, rgb=> [236, 231, 223] , hsl=> [37.6471, 25, 90] , hex=>  #ece7df
+extreme light bit greenish_yellow, rgb=> [233, 236, 223] , hsl=> [74.8235, 25, 90] , hex=>  #e9ecdf
+extreme light bit bluish_green, rgb=> [223, 236, 227] , hsl=> [140.0, 25, 90] , hex=>  #dfece3
+extreme light bit purplish_blue, rgb=> [225, 223, 236] , hsl=> [248.5714, 25, 90] , hex=>  #e1dfec
+extreme light bit reddish_purple, rgb=> [236, 223, 231] , hsl=> [324.0, 25, 90] , hex=>  #ecdfe7
+extreme light moderate orangish_red, rgb=> [242, 220, 217] , hsl=> [8.6099, 50, 90] , hex=>  #f2dcd9
+extreme light moderate yellowish_orange, rgb=> [242, 233, 217] , hsl=> [37.6471, 50, 90] , hex=>  #f2e9d9
+extreme light moderate greenish_yellow, rgb=> [236, 242, 217] , hsl=> [74.8235, 50, 90] , hex=>  #ecf2d9
+extreme light moderate bluish_green, rgb=> [217, 242, 225] , hsl=> [140.0, 50, 90] , hex=>  #d9f2e1
+extreme light moderate purplish_blue, rgb=> [220, 217, 242] , hsl=> [248.5714, 50, 90] , hex=>  #dcd9f2
+extreme light moderate reddish_purple, rgb=> [242, 217, 232] , hsl=> [324.0, 50, 90] , hex=>  #f2d9e8
+extreme light strong orangish_red, rgb=> [249, 216, 210] , hsl=> [8.6099, 75, 90] , hex=>  #f9d8d2
+extreme light strong yellowish_orange, rgb=> [249, 234, 210] , hsl=> [37.6471, 75, 90] , hex=>  #f9ead2
+extreme light strong greenish_yellow, rgb=> [239, 249, 210] , hsl=> [74.8235, 75, 90] , hex=>  #eff9d2
+extreme light strong bluish_green, rgb=> [210, 249, 223] , hsl=> [140.0, 75, 90] , hex=>  #d2f9df
+extreme light strong purplish_blue, rgb=> [216, 210, 249] , hsl=> [248.5714, 75, 90] , hex=>  #d8d2f9
+extreme light strong reddish_purple, rgb=> [249, 210, 233] , hsl=> [324.0, 75, 90] , hex=>  #f9d2e9
+extreme light vivid orangish_red, rgb=> [255, 211, 204] , hsl=> [8.6099, 100, 90] , hex=>  #ffd3cc
+extreme light vivid yellowish_orange, rgb=> [255, 236, 204] , hsl=> [37.6471, 100, 90] , hex=>  #ffeccc
+extreme light vivid greenish_yellow, rgb=> [242, 255, 204] , hsl=> [74.8235, 100, 90] , hex=>  #f2ffcc
+extreme light vivid bluish_green, rgb=> [204, 255, 221] , hsl=> [140.0, 100, 90] , hex=>  #ccffdd
+extreme light vivid purplish_blue, rgb=> [211, 204, 255] , hsl=> [248.5714, 100, 90] , hex=>  #d3ccff
+extreme light vivid reddish_purple, rgb=> [255, 204, 235] , hsl=> [324.0, 100, 90] , hex=>  #ffcceb
+  Total number of different color codes generated:  681
+  Total number of all color codes generated:  856
+ Execution time:  8.4171  seconds
