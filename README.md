@@ -1,4 +1,4 @@
-# gen_colorcode
+# Gen_colorcode
 
 To reduce the redundancy in selection of color for website making, project, blogging, newsletter, online graphics etc.  Here the program takes Input as a color name and give the output in color code. Also, we can see colors with the respective code in the plot generated after the execution of the program.  The program works accurately and generates RGB code, HSL code and Hex code.  
 
